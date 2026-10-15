@@ -18,6 +18,18 @@
   {"name": "إسبانيا", "keywords": ["الدوري الاسباني", "اسبانيا", "ريال مدريد", "برشلونه", "la liga", "spain", "spanish", "real madrid", "barcelona"], "en": "Spain"},
   {"name": "إيطاليا", "keywords": ["الدوري الايطالي", "ايطاليا", "serie a", "italy", "italian"], "en": "Italy"},
   {"name": "ألمانيا", "keywords": ["الدوري الالماني", "المانيا", "bundesliga", "germany", "german"], "en": "Germany"},
-  {"name": "فرنسا", "keywords": ["الدوري الفرنسي", "فرنسا", "ligue 1", "france", "french"], "en": "France"}
+  {"name": "فرنسا", "keywords": ["الدوري الفرنسي", "فرنسا", "ligue 1", "france", "french"], "en": "France"},
+  {"name": "الولايات المتحدة", "keywords": ["الولايات المتحده", "امريكا", "الامريكي", "united states", "america", "american", "u.s."], "en": "United States"},
+  {"name": "بريطانيا", "keywords": ["بريطانيا", "البريطاني", "britain", "british", "uk", "united kingdom"], "en": "UK"},
+  {"name": "روسيا", "keywords": ["روسيا", "الروسي", "russia", "russian", "kremlin"], "en": "Russia"},
+  {"name": "أوكرانيا", "keywords": ["اوكرانيا", "الاوكراني", "ukraine", "ukrainian"], "en": "Ukraine"},
+  {"name": "الصين", "keywords": ["الصين", "الصيني", "china", "chinese", "beijing"], "en": "China"},
+  {"name": "تركيا", "keywords": ["تركيا", "التركي", "turkey", "turkish", "türkiye"], "en": "Turkey"},
+  {"name": "إيران", "keywords": ["ايران", "الايراني", "iran", "iranian", "tehran"], "en": "Iran"},
+  {"name": "إسرائيل", "keywords": ["اسرائيل", "الاسرائيلي", "israel", "israeli"], "en": "Israel"},
+  {"name": "سوريا", "keywords": ["سوريا", "السوري", "syria", "syrian"], "en": "Syria"},
+  {"name": "لبنان", "keywords": ["لبنان", "اللبناني", "lebanon", "lebanese"], "en": "Lebanon"},
+  {"name": "اليمن", "keywords": ["اليمن", "اليمني", "yemen", "yemeni"], "en": "Yemen"},
+  {"name": "الهند", "keywords": ["الهند", "الهندي", "india", "indian"], "en": "India"},
+  {"name": "اليابان", "keywords": ["اليابان", "الياباني", "japan", "japanese"], "en": "Japan"}
 ]
-
