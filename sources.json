@@ -1,0 +1,17 @@
+[
+  {"name": "BBC Sport", "url": "https://feeds.bbci.co.uk/sport/rss.xml", "lang": "en", "sport": "general"},
+  {"name": "BBC Sport", "url": "https://feeds.bbci.co.uk/sport/football/rss.xml", "lang": "en", "sport": "كرة القدم"},
+  {"name": "BBC Sport", "url": "https://feeds.bbci.co.uk/sport/tennis/rss.xml", "lang": "en", "sport": "التنس"},
+  {"name": "BBC Sport", "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml", "lang": "en", "sport": "سباقات"},
+  {"name": "ESPN", "url": "https://www.espn.com/espn/rss/news", "lang": "en", "sport": "general"},
+  {"name": "ESPN", "url": "https://www.espn.com/espn/rss/soccer/news", "lang": "en", "sport": "كرة القدم"},
+  {"name": "ESPN", "url": "https://www.espn.com/espn/rss/nba/news", "lang": "en", "sport": "كرة السلة"},
+  {"name": "The Guardian", "url": "https://www.theguardian.com/football/rss", "lang": "en", "sport": "كرة القدم"},
+  {"name": "The Guardian", "url": "https://www.theguardian.com/sport/rss", "lang": "en", "sport": "general"},
+  {"name": "Sky Sports", "url": "https://www.skysports.com/rss/12040", "lang": "en", "sport": "كرة القدم"},
+
+  {"name": "الجزيرة", "url": "https://news.google.com/rss/search?q=site:aljazeera.net+%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9+when:2d&hl=ar&gl=SA&ceid=SA:ar", "lang": "ar", "sport": "general", "gnews": true},
+  {"name": "سكاي نيوز عربية", "url": "https://news.google.com/rss/search?q=site:skynewsarabia.com+%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9+when:2d&hl=ar&gl=SA&ceid=SA:ar", "lang": "ar", "sport": "general", "gnews": true},
+  {"name": "بي بي سي عربي", "url": "https://news.google.com/rss/search?q=site:bbc.com/arabic+%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9+when:2d&hl=ar&gl=SA&ceid=SA:ar", "lang": "ar", "sport": "general", "gnews": true},
+  {"name": "كووورة", "url": "https://news.google.com/rss/search?q=site:kooora.com+when:2d&hl=ar&gl=SA&ceid=SA:ar", "lang": "ar", "sport": "general", "gnews": true}
+]
