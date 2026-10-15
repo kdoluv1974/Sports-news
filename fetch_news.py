@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""يقرأ خلاصات RSS من sources.json، يحذف المكرر، يترجم العناوين غير العربية،
-ثم يكتب docs/news.json الذي تعرضه صفحة index.html."""
+"""يقرأ خلاصات RSS من sources.json، يحذف المكرر، يترجم العناوين (عربي <-> إنجليزي)،
+يصنّف الدول، ثم يكتب docs/news.json الذي تعرضه صفحة index.html."""
 import html
 import json
 import re
@@ -16,7 +16,7 @@ from deep_translator import GoogleTranslator
 ROOT = Path(__file__).parent
 OUT = ROOT / "docs" / "news.json"
 MAX_AGE = timedelta(days=3)   # أقدم خبر يُحتفظ به
-MAX_ITEMS = 300
+KEEP_PER_CATEGORY = 90   # أحدث الأخبار المحفوظة في كل قسم
 SUMMARY_LEN = 200
 PER_FEED = 25            # أقصى عدد أخبار من كل مصدر
 WORKERS = 8              # ترجمة متوازية
@@ -145,8 +145,10 @@ def main():
             if not link or not title:
                 continue
             source_name = src["name"]
-            if src.get("gnews"):  # عناوين أخبار Google تنتهي بـ " - اسم الموقع"
-                title = re.sub(r"\s+-\s+[^-]+$", "", title)
+            if src.get("gnews") and " - " in title:  # عناوين أخبار Google تنتهي بـ " - اسم الموقع"
+                title, suffix = title.rsplit(" - ", 1)
+                if src.get("name_from_title"):
+                    source_name = suffix.strip() or source_name
             when = published(e)
             if when < cutoff or link in seen_links or norm(title) in seen_titles:
                 continue
@@ -154,9 +156,11 @@ def main():
             seen_titles.add(norm(title))
 
             summary = clean(e.get("summary"))[:SUMMARY_LEN]
-            sport = src["sport"]
-            if sport == "general":
-                sport = classify(title + " " + summary)
+            category, sub = src["category"], ""
+            if category == "رياضة":  # نوع الرياضة (كرة قدم، تنس...)
+                sub = src.get("sub", "general")
+                if sub == "general":
+                    sub = classify(title + " " + summary)
 
             item = {
                 "title": title,
@@ -165,7 +169,8 @@ def main():
                 "image": find_image(e),
                 "source": source_name,
                 "lang": src["lang"],
-                "sport": sport,
+                "category": category,
+                "sub": sub,
                 "published": when.isoformat(),
                 "_text": title + " " + summary,
             }
@@ -199,7 +204,12 @@ def main():
         return
 
     items.sort(key=lambda i: i["published"], reverse=True)
-    items = items[:MAX_ITEMS]
+    kept, per_cat = [], {}
+    for i in items:  # حدّ لكل قسم حتى لا يطغى قسم على الآخر
+        per_cat[i["category"]] = per_cat.get(i["category"], 0) + 1
+        if per_cat[i["category"]] <= KEEP_PER_CATEGORY:
+            kept.append(i)
+    items = kept
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(
         json.dumps({"updated": datetime.now(timezone.utc).isoformat(), "country_names": COUNTRY_EN, "items": items},
