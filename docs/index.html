@@ -6,7 +6,7 @@
 <title>صافرة — أخبار الرياضة</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Noto+Kufi+Arabic:wght@600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Inter:wght@400;500;600&family=Noto+Kufi+Arabic:wght@600;800&display=swap" rel="stylesheet">
 <style>
 :root{
   --night:#0B1220; --night2:#16213A; --paper:#EEF1F0; --surface:#FFFFFF;
@@ -14,18 +14,26 @@
   --body:"IBM Plex Sans Arabic","Segoe UI",Tahoma,Arial,sans-serif;
   --display:"Noto Kufi Arabic","IBM Plex Sans Arabic",Tahoma,Arial,sans-serif;
 }
+html[lang="en"]{
+  --body:"Inter","Segoe UI",Arial,sans-serif;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+}
 *{box-sizing:border-box}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.7;font-size:16px}
 a{color:inherit;text-decoration:none}
 button{font:inherit}
+[hidden]{display:none!important}
 a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid var(--hot);outline-offset:2px}
 .wrap{max-width:76rem;margin:0 auto;padding:0 1.25rem}
 
 /* ===== الترويسة ===== */
 .top{background:var(--night);color:#fff;position:sticky;top:0;z-index:10;border-bottom:3px solid var(--hot)}
-.topin{display:flex;align-items:center;gap:1.75rem;min-height:4rem}
-.brand{font-family:var(--display);font-weight:800;font-size:1.9rem;line-height:1;margin:0;flex:none}
+.topin{display:flex;align-items:center;gap:1.5rem;min-height:4rem}
+.brandbox{flex:none;padding:.55rem 0}
+.brand{font-family:var(--display);font-weight:800;font-size:1.9rem;line-height:1;margin:0}
+html[lang="en"] .brand{font-size:2.3rem;letter-spacing:.01em}
 .brand i{font-style:normal;color:var(--hot)}
+.role{margin:.3rem 0 0;font-size:.78rem;color:#9AA7BF;line-height:1.3}
 #tabs{display:flex;gap:.25rem;overflow-x:auto;scrollbar-width:none;flex:1}
 #tabs::-webkit-scrollbar{display:none}
 #tabs button{all:unset;cursor:pointer;white-space:nowrap;padding:1.25rem .85rem;color:#B6C0D3;font-weight:500;border-bottom:4px solid transparent;margin-bottom:-3px}
@@ -34,6 +42,21 @@ a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{ou
 #tabs button:focus-visible{outline:3px solid var(--hot);outline-offset:-3px}
 #tabs small{color:#8391AB;margin-inline-start:.35rem;font-weight:400}
 .stamp{flex:none;color:#8391AB;font-size:.85rem}
+#langs{flex:none;display:flex;border:1px solid #33425F;border-radius:6px;overflow:hidden}
+#langs button{cursor:pointer;border:0;background:transparent;color:#B6C0D3;padding:.25rem .8rem;font-size:.9rem;font-weight:500}
+#langs button:hover{color:#fff}
+#langs button[aria-pressed="true"]{background:#fff;color:var(--night);font-weight:600}
+
+/* ===== تصنيف الدول ===== */
+.cstrip{background:var(--night2);color:#fff}
+.cstrip .wrap{display:flex;align-items:center;gap:1rem;padding-block:.6rem}
+.clabel{flex:none;color:#8391AB;font-size:.88rem}
+#chips{display:flex;gap:.45rem;overflow-x:auto;scrollbar-width:none;padding-block:2px}
+#chips::-webkit-scrollbar{display:none}
+#chips button{flex:none;cursor:pointer;border:1px solid #33425F;background:transparent;color:#D5DCEA;border-radius:999px;padding:.15rem .9rem;font-size:.9rem}
+#chips button:hover{border-color:#8391AB}
+#chips button[aria-pressed="true"]{background:#fff;color:var(--night);border-color:#fff;font-weight:600}
+#chips small{margin-inline-start:.35rem;opacity:.65}
 
 /* ===== شريط الأدوات ===== */
 .tools{background:var(--surface);border-bottom:1px solid var(--line)}
@@ -57,20 +80,26 @@ a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{ou
 .chip{display:inline-block;background:var(--c);color:#fff;font-size:.8rem;font-weight:600;padding:.05rem .6rem;border-radius:3px;margin-bottom:.4rem}
 .tile h2{font-family:var(--display);font-weight:800;font-size:1.02rem;line-height:1.6;margin:0}
 .tile.big h2{font-size:clamp(1.45rem,2.7vw,2.1rem);line-height:1.55}
+html[lang="en"] .tile h2{font-size:1.3rem;line-height:1.25}
+html[lang="en"] .tile.big h2{font-size:clamp(1.9rem,3.4vw,2.8rem);line-height:1.15}
 .tile:hover img,.card:hover img{transform:scale(1.04)}
 .tile:hover h2,.card:hover h3{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:5px}
 
 /* ===== شبكة الأخبار ===== */
 .sec{font-family:var(--display);font-weight:800;font-size:1.3rem;margin:2.25rem 0 1rem;display:flex;align-items:center;gap:.7rem}
+html[lang="en"] .sec{font-size:1.7rem}
 .sec::before{content:"";width:.5rem;height:1.5rem;background:var(--hot);border-radius:2px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:1.25rem}
 .card{display:flex;flex-direction:column;background:var(--surface);border-radius:6px;overflow:hidden;border-bottom:4px solid var(--c)}
 .card .media{aspect-ratio:16/9}
 .card .new{position:absolute;inset-block-start:.6rem;inset-inline-start:.6rem;z-index:1;background:var(--hot);color:#fff;font-size:.78rem;font-weight:600;padding:0 .55rem;border-radius:3px}
 .cb{padding:.85rem 1rem 1rem;display:flex;flex-direction:column;gap:.3rem;flex:1}
+.tags{display:flex;flex-wrap:wrap;gap:.3rem .6rem;align-items:center}
+.cty{font-size:.8rem;color:var(--muted);background:var(--paper);padding:0 .55rem;border-radius:3px}
 .tag{font-size:.85rem;font-weight:600;color:var(--c);filter:brightness(.78)}
 .card h3{margin:0;font-family:var(--display);font-weight:600;font-size:1.02rem;line-height:1.7}
-.orig{margin:0;color:var(--muted);font-size:.85rem;direction:ltr;text-align:left;line-height:1.5}
+html[lang="en"] .card h3{font-size:1.22rem;line-height:1.3;font-weight:600}
+.orig{margin:0;color:var(--muted);font-size:.85rem;text-align:start;line-height:1.5}
 .meta{margin:auto 0 0;padding-top:.4rem;font-size:.85rem;color:var(--muted);display:flex;flex-wrap:wrap}
 .meta .mt{margin-inline-start:.6rem;padding-inline-start:.6rem;border-inline-start:1px solid var(--line)}
 .tile .meta{color:#C9D2E2;padding-top:.3rem}
@@ -82,7 +111,9 @@ a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{ou
 footer{background:var(--night);color:#8391AB;margin-top:3.5rem;padding:1.5rem 0;font-size:.88rem}
 
 @media (max-width:760px){
-  .topin{gap:1rem}.stamp{display:none}
+  .topin{gap:.75rem;flex-wrap:wrap;padding-block:.4rem}
+  .brandbox{order:1}#langs{order:2;margin-inline-start:auto}#tabs{order:3;flex:1 1 100%}.stamp{display:none}
+  #tabs button{padding:.6rem .8rem}
   .hero{grid-template-columns:1fr 1fr;grid-template-rows:none;height:auto}
   .tile{min-height:12rem}
   .tile.big{grid-column:1/-1;grid-row:auto;min-height:19rem}
@@ -93,71 +124,105 @@ footer{background:var(--night);color:#8391AB;margin-top:3.5rem;padding:1.5rem 0;
 <body>
 <header class="top">
   <div class="wrap topin">
-    <h1 class="brand">صافرة<i>.</i></h1>
-    <nav id="tabs" role="group" aria-label="الرياضة"></nav>
+    <div class="brandbox"><h1 class="brand"><span data-i18n="brand">صافرة</span><i>.</i></h1><p class="role" data-i18n="role"></p></div>
+    <nav id="tabs" role="group"></nav>
     <div class="stamp" id="stamp"></div>
+    <div id="langs" role="group" aria-label="Language / اللغة">
+      <button type="button" data-l="ar" lang="ar">عربي</button>
+      <button type="button" data-l="en" lang="en">EN</button>
+    </div>
   </div>
 </header>
 
+<div class="cstrip" id="cstrip" hidden>
+  <div class="wrap"><span class="clabel" data-i18n="country"></span><div id="chips" role="group"></div></div>
+</div>
+
 <div class="tools">
   <div class="wrap">
-    <input type="search" id="q" placeholder="ابحث في العناوين" aria-label="ابحث في العناوين">
-    <select id="src" aria-label="المصدر"><option value="">كل المصادر</option></select>
-    <label><input type="checkbox" id="orig"> إظهار العنوان الأصلي</label>
+    <input type="search" id="q">
+    <select id="src"><option value=""></option></select>
+    <label><input type="checkbox" id="orig"> <span data-i18n="showOrig"></span></label>
   </div>
 </div>
 
 <main class="wrap" id="main" aria-live="polite"></main>
 
 <footer>
-  <div class="wrap">أخبار الرياضة من مصادر عربية وعالمية. العناوين غير العربية مترجمة آلياً وقد لا تكون دقيقة تماماً، وكل خبر يفتح في موقع مصدره.</div>
+  <div class="wrap" data-i18n="footer"></div>
 </footer>
 
 <script>
 const PAGE = 24;
 const COLORS = {'كرة القدم':'#0E9F6E','كرة السلة':'#F26B1D','التنس':'#7FA800','سباقات':'#D7263D','القتال':'#7B2CBF','رياضات أخرى':'#2F6FED'};
-const col = s => COLORS[s] || '#2F6FED';
-const state = { items: [], sport: 'الكل', source: '', q: '', orig: false, shown: PAGE };
+const SPORT_EN = {'كرة القدم':'Football','كرة السلة':'Basketball','التنس':'Tennis','سباقات':'Motorsport','القتال':'Combat sports','رياضات أخرى':'Other sports'};
+const T = {
+  ar: { dir:'rtl', locale:'ar-KW-u-nu-latn', title:'صافرة — أخبار الرياضة', brand:'صافرة',
+    role:'رئيس مجلس الإدارة: خالد محمد الشربيني', country:'الدولة', sport:'الرياضة', source:'المصدر',
+    all:'الكل', allCountries:'كل الدول', allSources:'كل المصادر', search:'ابحث في العناوين',
+    showOrig:'إظهار العنوان الأصلي', latest:'آخر الأخبار', more:'عرض المزيد', fresh:'جديد', updated:'آخر تحديث: ',
+    empty:'لا توجد أخبار مطابقة. جرّب تغيير الرياضة أو الدولة أو المصدر.',
+    error:'تعذّر تحميل الأخبار. افتح الصفحة عبر خادم (مثل GitHub Pages أو python -m http.server) وليس كملف مباشر.',
+    footer:'أخبار الرياضة من مصادر عربية وعالمية. العناوين غير العربية مترجمة آلياً وقد لا تكون دقيقة تماماً، وكل خبر يفتح في موقع مصدره.' },
+  en: { dir:'ltr', locale:'en', title:'Safra — Sports News', brand:'Safra',
+    role:'Chairman of the Board: Khaled Mohamed El-Sherbiny', country:'Country', sport:'Sport', source:'Source',
+    all:'All', allCountries:'All countries', allSources:'All sources', search:'Search headlines',
+    showOrig:'Show original headline', latest:'Latest news', more:'Load more', fresh:'New', updated:'Updated ',
+    empty:'No matching news. Try a different sport, country or source.',
+    error:'Could not load the news. Open the page through a web server (such as GitHub Pages or python -m http.server), not as a local file.',
+    footer:'Sports news from Arab and international sources. Headlines not originally in English are machine-translated and may be imprecise. Each story opens on its source site.' }
+};
+
+let lang = 'ar';
+try { const s = localStorage.getItem('lang'); if (s === 'en' || s === 'ar') lang = s; } catch (e) {}
+
+const state = { items: [], countryNames: {}, updated: null, sport: 'الكل', country: 'الكل', source: '', q: '', orig: false, shown: PAGE };
 const $ = id => document.getElementById(id);
+const t = k => T[lang][k];
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeUrl = u => /^https?:\/\//i.test(u) ? u : '';
-const ttl = i => i.title_ar || i.title;
-const rtf = new Intl.RelativeTimeFormat('ar-KW-u-nu-latn', { numeric: 'auto' });
+const col = s => COLORS[s] || '#2F6FED';
+const sname = s => lang === 'ar' ? s : (SPORT_EN[s] || s);
+const cname = c => lang === 'ar' ? c : (state.countryNames[c] || c);
+const ttl = i => lang === 'ar' ? (i.title_ar || i.title) : (i.title_en || i.title);
+const rtfs = {};
+const rtf = () => rtfs[lang] || (rtfs[lang] = new Intl.RelativeTimeFormat(t('locale'), { numeric: 'auto' }));
 
 function rel(date) {
   const m = Math.max(1, Math.round((Date.now() - date) / 6e4));
-  if (m < 60) return rtf.format(-m, 'minute');
+  if (m < 60) return rtf().format(-m, 'minute');
   const h = Math.round(m / 60);
-  if (h < 24) return rtf.format(-h, 'hour');
+  if (h < 24) return rtf().format(-h, 'hour');
   const d = Math.round(h / 24);
-  if (d < 3) return rtf.format(-d, 'day');
-  return date.toLocaleDateString('ar-KW-u-nu-latn', { day: 'numeric', month: 'long' });
+  if (d < 3) return rtf().format(-d, 'day');
+  return date.toLocaleDateString(t('locale'), { day: 'numeric', month: 'long' });
 }
 
 function media(i) {
   const img = safeUrl(i.image);
-  return `<div class="media" style="--c:${col(i.sport)}"><span class="phn">${esc(i.sport)}</span>${img ? `<img src="${esc(img)}" alt="" loading="lazy" onerror="this.remove()">` : ''}</div>`;
+  return `<div class="media" style="--c:${col(i.sport)}"><span class="phn">${esc(sname(i.sport))}</span>${img ? `<img src="${esc(img)}" alt="" loading="lazy" onerror="this.remove()">` : ''}</div>`;
 }
 const meta = i => `<p class="meta"><span>${esc(i.source)}</span><span class="mt">${rel(new Date(i.published))}</span></p>`;
-const origLine = i => state.orig && i.lang !== 'ar' ? `<p class="orig">${esc(i.title)}</p>` : '';
+const origLine = i => state.orig && i.lang !== lang ? `<p class="orig" dir="${i.lang === 'ar' ? 'rtl' : 'ltr'}">${esc(i.title)}</p>` : '';
 
 const tile = (i, cls) => `<a class="tile ${cls}" href="${esc(safeUrl(i.link))}" target="_blank" rel="noopener noreferrer">
   ${media(i)}<div class="shade"></div>
-  <div class="tx"><span class="chip" style="--c:${col(i.sport)}">${esc(i.sport)}</span><h2>${esc(ttl(i))}</h2>${meta(i)}</div></a>`;
+  <div class="tx"><span class="chip" style="--c:${col(i.sport)}">${esc(sname(i.sport))}</span><h2>${esc(ttl(i))}</h2>${meta(i)}</div></a>`;
 
 const card = i => {
   const fresh = Date.now() - new Date(i.published) < 3 * 36e5;
   return `<a class="card" style="--c:${col(i.sport)}" href="${esc(safeUrl(i.link))}" target="_blank" rel="noopener noreferrer">
-  <div style="position:relative">${fresh ? '<span class="new">جديد</span>' : ''}${media(i)}</div>
-  <div class="cb"><span class="tag">${esc(i.sport)}</span><h3>${esc(ttl(i))}</h3>${origLine(i)}${meta(i)}</div></a>`;
+  <div style="position:relative">${fresh ? `<span class="new">${esc(t('fresh'))}</span>` : ''}${media(i)}</div>
+  <div class="cb"><div class="tags"><span class="tag">${esc(sname(i.sport))}</span>${(i.countries || []).map(c => `<span class="cty">${esc(cname(c))}</span>`).join('')}</div><h3>${esc(ttl(i))}</h3>${origLine(i)}${meta(i)}</div></a>`;
 };
 
 function filtered() {
   const q = state.q.trim().toLowerCase();
   return state.items.filter(i =>
     (state.sport === 'الكل' || i.sport === state.sport) &&
+    (state.country === 'الكل' || (i.countries || []).includes(state.country)) &&
     (!state.source || i.source === state.source) &&
-    (!q || ttl(i).toLowerCase().includes(q) || i.title.toLowerCase().includes(q))
+    (!q || [i.title, i.title_ar, i.title_en].some(x => (x || '').toLowerCase().includes(q)))
   );
 }
 
@@ -166,14 +231,24 @@ function renderTabs() {
   state.items.forEach(i => counts[i.sport] = (counts[i.sport] || 0) + 1);
   const names = ['الكل', ...Object.keys(counts).sort((a, b) => counts[b] - counts[a])];
   $('tabs').innerHTML = names.map(n =>
-    `<button type="button" data-s="${esc(n)}" style="--c:${n === 'الكل' ? '#fff' : col(n)}" aria-pressed="${n === state.sport}">${esc(n)}<small>${n === 'الكل' ? state.items.length : counts[n]}</small></button>`
+    `<button type="button" data-s="${esc(n)}" style="--c:${n === 'الكل' ? '#fff' : col(n)}" aria-pressed="${n === state.sport}">${esc(n === 'الكل' ? t('all') : sname(n))}<small>${n === 'الكل' ? state.items.length : counts[n]}</small></button>`
+  ).join('');
+}
+
+function renderChips() {
+  const counts = {};
+  state.items.forEach(i => (i.countries || []).forEach(c => counts[c] = (counts[c] || 0) + 1));
+  const names = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+  $('cstrip').hidden = !names.length;
+  $('chips').innerHTML = ['الكل', ...names].map(n =>
+    `<button type="button" data-c="${esc(n)}" aria-pressed="${n === state.country}">${esc(n === 'الكل' ? t('allCountries') : cname(n))}<small>${n === 'الكل' ? state.items.length : counts[n]}</small></button>`
   ).join('');
 }
 
 function render() {
   const list = filtered();
   const main = $('main');
-  if (!list.length) { main.innerHTML = '<p class="empty">لا توجد أخبار مطابقة. جرّب تغيير الرياضة أو المصدر.</p>'; return; }
+  if (!list.length) { main.innerHTML = `<p class="empty">${esc(t('empty'))}</p>`; return; }
 
   let hero = [], rest = list;
   if (list.length >= 5) {
@@ -185,34 +260,63 @@ function render() {
   let out = '';
   if (hero.length) out += `<section class="hero">${tile(hero[0], 'big')}${hero.slice(1).map(i => tile(i, '')).join('')}</section>`;
   if (rest.length) {
-    out += `<h2 class="sec">آخر الأخبار</h2><div class="grid">${rest.slice(0, state.shown).map(card).join('')}</div>`;
-    if (rest.length > state.shown) out += `<button type="button" class="more" id="more">عرض المزيد</button>`;
+    out += `<h2 class="sec">${esc(t('latest'))}</h2><div class="grid">${rest.slice(0, state.shown).map(card).join('')}</div>`;
+    if (rest.length > state.shown) out += `<button type="button" class="more" id="more">${esc(t('more'))}</button>`;
   }
   main.innerHTML = out;
+}
+
+function applyLang() {
+  const L = T[lang];
+  document.documentElement.lang = lang;
+  document.documentElement.dir = L.dir;
+  document.title = L.title;
+  document.querySelectorAll('[data-i18n]').forEach(el => el.textContent = L[el.dataset.i18n]);
+  $('q').placeholder = L.search;
+  $('q').setAttribute('aria-label', L.search);
+  $('src').setAttribute('aria-label', L.source);
+  $('tabs').setAttribute('aria-label', L.sport);
+  $('chips').setAttribute('aria-label', L.country);
+  $('src').options[0].textContent = L.allSources;
+  document.querySelectorAll('#langs button').forEach(b => b.setAttribute('aria-pressed', b.dataset.l === lang));
+  if (state.updated) $('stamp').textContent = L.updated + rel(state.updated);
+  renderTabs(); renderChips(); render();
 }
 
 function reset() { state.shown = PAGE; render(); }
 
 async function init() {
+  applyLang();
   try {
     const res = await fetch('news.json', { cache: 'no-cache' });
     if (!res.ok) throw new Error(res.status);
     const data = await res.json();
     state.items = data.items || [];
-    $('stamp').textContent = 'آخر تحديث: ' + rel(new Date(data.updated));
+    state.countryNames = data.country_names || {};
+    state.updated = new Date(data.updated);
   } catch (e) {
-    $('main').innerHTML = '<p class="err">تعذّر تحميل الأخبار. افتح الصفحة عبر خادم (مثل GitHub Pages أو python -m http.server) وليس كملف مباشر.</p>';
+    $('main').innerHTML = `<p class="err">${esc(t('error'))}</p>`;
     return;
   }
   [...new Set(state.items.map(i => i.source))].sort().forEach(s => {
     const o = document.createElement('option'); o.value = o.textContent = s; $('src').appendChild(o);
   });
-  renderTabs(); render();
+  applyLang();
 }
 
+$('langs').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b || b.dataset.l === lang) return;
+  lang = b.dataset.l;
+  try { localStorage.setItem('lang', lang); } catch (err) {}
+  state.shown = PAGE; applyLang();
+});
 $('tabs').addEventListener('click', e => {
   const b = e.target.closest('button'); if (!b) return;
   state.sport = b.dataset.s; renderTabs(); reset();
+});
+$('chips').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  state.country = b.dataset.c; renderChips(); reset();
 });
 $('main').addEventListener('click', e => {
   if (e.target.id === 'more') { state.shown += PAGE; render(); }
