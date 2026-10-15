@@ -1,1 +1,23 @@
+[
+  {"name": "مصر", "keywords": ["مصر", "المصري", "المصريه", "الزمالك", "الاهلي المصري", "الدوري المصري", "محمد صلاح", "egypt", "egyptian", "zamalek", "al ahly", "mohamed salah", "mo salah"], "en": "Egypt"},
+  {"name": "السعودية", "keywords": ["السعوديه", "السعودي", "روشن", "الهلال", "النصر", "saudi", "al hilal", "al nassr", "al ittihad jeddah"], "en": "Saudi Arabia"},
+  {"name": "تونس", "keywords": ["تونس", "التونسي", "الترجي", "النجم الساحلي", "tunisia", "tunisian", "esperance"], "en": "Tunisia"},
+  {"name": "الجزائر", "keywords": ["الجزائر", "الجزائري", "محرز", "شباب بلوزداد", "algeria", "algerian", "mahrez"], "en": "Algeria"},
+  {"name": "المغرب", "keywords": ["المغرب", "المغربي", "الوداد", "الرجاء", "اسود الاطلس", "حكيمي", "morocco", "moroccan", "hakimi"], "en": "Morocco"},
+  {"name": "الإمارات", "keywords": ["الامارات", "الاماراتي", "uae", "united arab emirates"], "en": "UAE"},
+  {"name": "قطر", "keywords": ["قطر", "القطري", "qatar", "qatari"], "en": "Qatar"},
+  {"name": "الكويت", "keywords": ["الكويت", "الكويتي", "kuwait", "kuwaiti"], "en": "Kuwait"},
+  {"name": "العراق", "keywords": ["العراق", "العراقي", "iraq", "iraqi"], "en": "Iraq"},
+  {"name": "الأردن", "keywords": ["الاردن", "الاردني"], "en": "Jordan"},
+  {"name": "ليبيا", "keywords": ["ليبيا", "الليبي", "libya", "libyan"], "en": "Libya"},
+  {"name": "السودان", "keywords": ["السودان", "السوداني", "sudan", "sudanese"], "en": "Sudan"},
+  {"name": "عُمان", "keywords": ["سلطنه عمان", "العماني", "oman", "omani"], "en": "Oman"},
+  {"name": "البحرين", "keywords": ["البحرين", "البحريني", "bahrain"], "en": "Bahrain"},
+  {"name": "فلسطين", "keywords": ["فلسطين", "الفلسطيني", "palestine", "palestinian"], "en": "Palestine"},
+  {"name": "إنجلترا", "keywords": ["الدوري الانجليزي", "انجلترا", "الانجليزي", "premier league", "england", "english"], "en": "England"},
+  {"name": "إسبانيا", "keywords": ["الدوري الاسباني", "اسبانيا", "ريال مدريد", "برشلونه", "la liga", "spain", "spanish", "real madrid", "barcelona"], "en": "Spain"},
+  {"name": "إيطاليا", "keywords": ["الدوري الايطالي", "ايطاليا", "serie a", "italy", "italian"], "en": "Italy"},
+  {"name": "ألمانيا", "keywords": ["الدوري الالماني", "المانيا", "bundesliga", "germany", "german"], "en": "Germany"},
+  {"name": "فرنسا", "keywords": ["الدوري الفرنسي", "فرنسا", "ligue 1", "france", "french"], "en": "France"}
+]
 
