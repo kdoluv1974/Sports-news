@@ -32,6 +32,40 @@ SPORTS = [
                     "serie a", "bundesliga", "fifa", "uefa", "كرة القدم", "الدوري", "دوري أبطال", "المنتخب"]),
 ]
 OTHER = "رياضات أخرى"
+MAX_COUNTRIES = 3
+
+
+def norm_text(s: str) -> str:
+    """توحيد الحروف العربية (أ إ آ ← ا، ة ← ه، ى ← ي) وإزالة التشكيل"""
+    s = s.lower().replace("-", " ")
+    s = re.sub("[\u064B-\u0652\u0640]", "", s)
+    return s.translate(str.maketrans("أإآةى", "اااهي"))
+
+
+COUNTRIES = []
+COUNTRY_EN = {}
+
+
+def load_countries():
+    for c in json.loads((ROOT / "countries.json").read_text("utf-8")):
+        COUNTRIES.append((c["name"], [norm_text(k) for k in c["keywords"]]))
+        COUNTRY_EN[c["name"]] = c.get("en", c["name"])
+
+
+def detect_countries(text: str) -> list:
+    text = norm_text(text)
+    scores = []
+    for name, words in COUNTRIES:
+        n = 0
+        for w in words:
+            if w.isascii():
+                n += len(re.findall(r"\b" + re.escape(w) + r"\b", text))
+            else:
+                n += text.count(w)
+        if n:
+            scores.append((n, name))
+    scores.sort(key=lambda x: -x[0])
+    return [name for _, name in scores[:MAX_COUNTRIES]]
 
 
 
@@ -52,12 +86,12 @@ def clean(text: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(text)).strip()
 
 
-def translate(text: str):
+def translate(text: str, target: str = "ar"):
     if not text:
         return ""
     for attempt in range(2):
         try:
-            return GoogleTranslator(source="auto", target="ar").translate(text) or None
+            return GoogleTranslator(source="auto", target=target).translate(text) or None
         except Exception:
             time.sleep(1 + attempt)
     return None  # يُعاد المحاولة في التشغيل القادم
@@ -96,6 +130,7 @@ def load_previous() -> dict:
 
 def main():
     sources = json.loads((ROOT / "sources.json").read_text("utf-8"))
+    load_countries()
     previous = load_previous()
     cutoff = datetime.now(timezone.utc) - MAX_AGE
     items, seen_links, seen_titles = [], set(), set()
@@ -132,21 +167,32 @@ def main():
                 "lang": src["lang"],
                 "sport": sport,
                 "published": when.isoformat(),
+                "_text": title + " " + summary,
             }
-            old = previous.get(link)
+            old = previous.get(link) or {}
             if src["lang"] == "ar":
                 item["title_ar"], item["summary_ar"] = title, summary
-            elif old and old.get("title_ar"):
-                item["title_ar"], item["summary_ar"] = old["title_ar"], old.get("summary_ar", "")
+                item["title_en"] = old.get("title_en")
             else:
-                item["title_ar"], item["summary_ar"], item["summary"] = None, "", ""
+                item["title_en"], item["summary_ar"], item["summary"] = title, "", ""
+                item["title_ar"] = old.get("title_ar")
             items.append(item)
 
-    todo = [i for i in items if i["title_ar"] is None and i["lang"] != "ar"]
-    print(f"جُمع {len(items)} خبر، وسيُترجم {len(todo)} عنوان", flush=True)
+    # كل خبر يحتاج ترجمة واحدة: الإنجليزي إلى العربية، والعربي إلى الإنجليزية
+    jobs = []
+    for i in items:
+        if i["lang"] == "ar" and not i["title_en"]:
+            jobs.append((i, "title_en", "en"))
+        elif i["lang"] != "ar" and not i["title_ar"]:
+            jobs.append((i, "title_ar", "ar"))
+    print(f"جُمع {len(items)} خبر، وسيُترجم {len(jobs)} عنوان", flush=True)
     with ThreadPoolExecutor(max_workers=WORKERS) as pool:
-        for i, t in zip(todo, pool.map(translate, [i["title"] for i in todo])):
-            i["title_ar"] = t
+        results = pool.map(lambda j: translate(j[0]["title"], j[2]), jobs)
+        for (item, key, _), t in zip(jobs, results):
+            item[key] = t
+
+    for i in items:
+        i["countries"] = detect_countries(i.pop("_text", "") + " " + (i.get("title_ar") or ""))
 
     if not items:
         print("لم يُجمع أي خبر؛ تُترك news.json القديمة كما هي.")
@@ -156,7 +202,7 @@ def main():
     items = items[:MAX_ITEMS]
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(
-        json.dumps({"updated": datetime.now(timezone.utc).isoformat(), "items": items},
+        json.dumps({"updated": datetime.now(timezone.utc).isoformat(), "country_names": COUNTRY_EN, "items": items},
                    ensure_ascii=False, indent=1),
         "utf-8",
     )
