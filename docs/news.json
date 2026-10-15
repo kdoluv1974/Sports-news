@@ -1,5 +1,27 @@
 {
- "updated": "2026-10-15T08:08:52.247619+00:00",
+ "updated": "2026-10-15T08:32:06.292056+00:00",
+ "country_names": {
+  "مصر": "Egypt",
+  "السعودية": "Saudi Arabia",
+  "تونس": "Tunisia",
+  "الجزائر": "Algeria",
+  "المغرب": "Morocco",
+  "الإمارات": "UAE",
+  "قطر": "Qatar",
+  "الكويت": "Kuwait",
+  "العراق": "Iraq",
+  "الأردن": "Jordan",
+  "ليبيا": "Libya",
+  "السودان": "Sudan",
+  "عُمان": "Oman",
+  "البحرين": "Bahrain",
+  "فلسطين": "Palestine",
+  "إنجلترا": "England",
+  "إسبانيا": "Spain",
+  "إيطاليا": "Italy",
+  "ألمانيا": "Germany",
+  "فرنسا": "France"
+ },
  "items": [
   {
    "title": "Rugby League World Cup LIVE! Australia take on New Zealand in opener",
@@ -10,8 +32,40 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-15T09:00:00+00:00",
+   "title_en": "Rugby League World Cup LIVE! Australia take on New Zealand in opener",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
+  },
+  {
+   "title": "أسطورة المغرب: دوناروما قدّم مباراة كارثية أمام سان جيرمان",
+   "summary": "أسطورة المغرب: دوناروما قدّم مباراة كارثية أمام سان جيرمان Kooora",
+   "link": "https://news.google.com/rss/articles/CBMi1ARBVV95cUxOM3R1VUZmekdoZUZqY0t2NWp2NHVvVW1OVEpWWUc3eUhKbC15Mnd2b3ljNmlhcW1RTUJYQTI1SkhEQlhJWGp4RU5XTHZIaWdtM0NvcTV3WGZIYUU4Rk9mSm5QT2tkMTJOcm4wa3ZCcEJ1RnRZMWlCVTN5eFplcVF4X0JMZlBmczJOUW1zSzFxSGtULVFKbFBNYkFpcFl3anNJSnA0Rl9YQWt1UGZNNzNzeDcyNGp6Vnp6U245WmVhWjFFQTc4c04zMTBzVWFmMmV1U3dUdUZHTGNiY3piX3B4ZW4wb1VLcUt4d2lNbnB1MURpa3N4RWI5aktqZ2UxYldsMkJ1bm5FUWV5MFJVSE1xQTNKZ25lVjlYMHk4TERJeUlfTlJXUDE1dGhPcHpRYVQtem94aWZubW9wT1pQWXVsaGFxUGpkbnBBSjREajZMODRDdzY3YjVWckFpcWFZMTlPVWl6Ym5waVhBMjBRZUM5LU42V2g0dmprb3pGSHBLT0F1UmVoUy0tT2p0eWNtSXZNR0s5b090cm9PcHdXNEI1NzZibW81VTV1QUJNVEkwZjlJc3JnTDA3M0NjYmwtQTBuUXlxZ2lEVk5keERiRmVDeFc3aXRkbHozcGtsTDNyMnQ3UDh1aGg2NDRVTE16Qmt4QkFqZWJLZ1JaclliWkUydF9OajQ4TWJnVVlwQnhWRl9VZHJIR3IzM1N4RG00V3dpakJUOVBheGpVOGlpalE5NzNPTGMyRUZHZkVLM3dMZTRZeDMtZUdqamQxTmgyeTFtQzI5QQ?oc=5",
+   "image": "",
+   "source": "كووورة",
+   "lang": "ar",
+   "sport": "رياضات أخرى",
+   "published": "2026-10-15T08:27:31+00:00",
+   "title_ar": "أسطورة المغرب: دوناروما قدّم مباراة كارثية أمام سان جيرمان",
+   "summary_ar": "أسطورة المغرب: دوناروما قدّم مباراة كارثية أمام سان جيرمان Kooora",
+   "title_en": null,
+   "countries": [
+    "المغرب"
+   ]
+  },
+  {
+   "title": "Australia v New Zealand: men’s Rugby League World Cup – live",
+   "summary": "",
+   "link": "https://www.theguardian.com/sport/live/2026/oct/15/australia-vs-new-zealand-mens-rugby-league-world-cup-live-updates",
+   "image": "https://i.guim.co.uk/img/media/b288fb7710749855f622828f5346cefed20d0201/1056_393_5439_4351/master/5439.jpg?width=140&quality=85&auto=format&fit=max&s=b1a8d72d6c8456e68de33d035b6617a4",
+   "source": "The Guardian",
+   "lang": "en",
+   "sport": "رياضات أخرى",
+   "published": "2026-10-15T08:19:50+00:00",
+   "title_en": "Australia v New Zealand: men’s Rugby League World Cup – live",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": []
   },
   {
    "title": "'Top two - why not?' - Why Sangare turned down top clubs for Brentford",
@@ -22,8 +76,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-15T08:00:00+00:00",
+   "title_en": "'Top two - why not?' - Why Sangare turned down top clubs for Brentford",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "كرة القدم الهجومية في أبهى صورها.. كيف دخلت الجولة الثانية تاريخ دوري الأبطال؟",
@@ -35,7 +91,9 @@
    "sport": "كرة القدم",
    "published": "2026-10-15T07:59:26+00:00",
    "title_ar": "كرة القدم الهجومية في أبهى صورها.. كيف دخلت الجولة الثانية تاريخ دوري الأبطال؟",
-   "summary_ar": "كرة القدم الهجومية في أبهى صورها.. كيف دخلت الجولة الثانية تاريخ دوري الأبطال؟ Kooora"
+   "summary_ar": "كرة القدم الهجومية في أبهى صورها.. كيف دخلت الجولة الثانية تاريخ دوري الأبطال؟ Kooora",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "The Portuguese second-tier team hosting Sunderland in Europe",
@@ -46,8 +104,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-15T07:30:41+00:00",
+   "title_en": "The Portuguese second-tier team hosting Sunderland in Europe",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Papers: Senior Man Utd players behind Martinez after outburst",
@@ -58,8 +118,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-15T07:30:00+00:00",
+   "title_en": "Papers: Senior Man Utd players behind Martinez after outburst",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "How are the Irish provinces shaping up for Europe?",
@@ -70,8 +132,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-15T07:15:45+00:00",
+   "title_en": "How are the Irish provinces shaping up for Europe?",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "إحصائية مخزية.. كورتوا يفضح أزمة ثنائي ريال مدريد",
@@ -83,7 +147,25 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-15T07:09:08+00:00",
    "title_ar": "إحصائية مخزية.. كورتوا يفضح أزمة ثنائي ريال مدريد",
-   "summary_ar": "إحصائية مخزية.. كورتوا يفضح أزمة ثنائي ريال مدريد Kooora"
+   "summary_ar": "إحصائية مخزية.. كورتوا يفضح أزمة ثنائي ريال مدريد Kooora",
+   "title_en": null,
+   "countries": [
+    "إسبانيا"
+   ]
+  },
+  {
+   "title": "الجزيرة نت: آخر أخبار اليوم حول العالم",
+   "summary": "الجزيرة نت: آخر أخبار اليوم حول العالم الجزيرة نت",
+   "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9VZXhrQ2dHZW81Q1cyTWR4MXpBSndFTlJXOGhUWmc2V2M0emtkU3VKd0phZ0JwUXBkeDQ0WWNocw?oc=5",
+   "image": "",
+   "source": "الجزيرة",
+   "lang": "ar",
+   "sport": "رياضات أخرى",
+   "published": "2026-10-15T07:01:20+00:00",
+   "title_ar": "الجزيرة نت: آخر أخبار اليوم حول العالم",
+   "summary_ar": "الجزيرة نت: آخر أخبار اليوم حول العالم الجزيرة نت",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "My old teammate Miroslav Klose is bucking a trend in German coaching | Philipp Lahm",
@@ -94,8 +176,12 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-15T07:00:24+00:00",
+   "title_en": "My old teammate Miroslav Klose is bucking a trend in German coaching | Philipp Lahm",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": [
+    "ألمانيا"
+   ]
   },
   {
    "title": "Wardley: Davison could help AJ with 'inside knowledge' of Fury",
@@ -106,20 +192,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-15T07:00:00+00:00",
+   "title_en": "Wardley: Davison could help AJ with 'inside knowledge' of Fury",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
-  },
-  {
-   "title": "إندريك: ما يفعلونه بفينيسيوس جنوني.. لكنه سيعود",
-   "summary": "إندريك: ما يفعلونه بفينيسيوس جنوني.. لكنه سيعود Kooora",
-   "link": "https://news.google.com/rss/articles/CBMi8wNBVV95cUxQZ0R0WUpVX3M5a2F2Q1VIQS1Kdlh0UjR5MngyVU5ZR0VleXYzY3JLRWh6RWpQaGNZRUVzbDdhZEJTMS1PcXVJeVQyb1BNV1gtNWFHWElfMDEtamVlT1dYSWQtYnR4WmloTnZXQTYyV0N4TXJXTWRUd1ZCbXhuSWRDQjBWaVdXT0x5d2RVRWxNTGJnakktM2hIU2F3cktfeDhzZXBId3hOZ1MwRlBUdFhCTEhQQ0xfNGY4NlRXeG1leGFBNTkzaGppYXllUHR2YzZ3UFh4dHhKWDZ5US0tUC04N3ExMk00NmZIR1poNGMwREJpM0l1aUJmZDM1WUYtcHlYcVdxbkVVbUtZbHh2ejRhZFpCbjVjV3IwMjBITlkweEdhSTVjTkRrT2o3STBYYTUwWk9JNWRZcHY3Y3ZyampSdV9ZSnllYklJd2FERUZfUzZ4cU5BUlg2NUg2a0VWNmQ2aHZ2MDZnZzcwNkhFRHdHTlUwbk9WdVlXcHZFRC1fcHc4eHdIa3BDZDFUQXlvOFdTTXpjdFNUQ21EazN0c0dyZ0ctXzdUYXJZT2xuRzlKTXJUU013N0FZeTBNZG40amlUNlFtVHdMb2xzTGdCOEt0bHZWVUdYcFIxQVBVQVNaa2FJWmh6ai0zVXVrbVVLWV90MGNz?oc=5",
-   "image": "",
-   "source": "كووورة",
-   "lang": "ar",
-   "sport": "رياضات أخرى",
-   "published": "2026-10-15T06:56:20+00:00",
-   "title_ar": "إندريك: ما يفعلونه بفينيسيوس جنوني.. لكنه سيعود",
-   "summary_ar": "إندريك: ما يفعلونه بفينيسيوس جنوني.. لكنه سيعود Kooora"
+   "countries": []
   },
   {
    "title": "'Very good for the confidence' - Iraola impressed by Barcola and Wirtz in LASK win",
@@ -130,8 +206,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-15T06:43:00+00:00",
+   "title_en": "'Very good for the confidence' - Iraola impressed by Barcola and Wirtz in LASK win",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Could Wenger really take on Infantino and run for Fifa presidency?",
@@ -142,8 +220,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-15T06:35:39+00:00",
+   "title_en": "Could Wenger really take on Infantino and run for Fifa presidency?",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Weekly sports quiz: How much is the cheapest Fury v Joshua ticket?",
@@ -154,8 +234,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-15T06:35:31+00:00",
+   "title_en": "Weekly sports quiz: How much is the cheapest Fury v Joshua ticket?",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "The Andorran club making history with a Pochettino in the team",
@@ -166,8 +248,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-15T06:09:12+00:00",
+   "title_en": "The Andorran club making history with a Pochettino in the team",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "يوتيوب يستعد لاقتحام سوق الكتب الصوتية",
@@ -179,7 +263,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-15T06:03:57+00:00",
    "title_ar": "يوتيوب يستعد لاقتحام سوق الكتب الصوتية",
-   "summary_ar": "يوتيوب يستعد لاقتحام سوق الكتب الصوتية سكاي نيوز عربية"
+   "summary_ar": "يوتيوب يستعد لاقتحام سوق الكتب الصوتية سكاي نيوز عربية",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "Who am I? Plus today's other quizzes",
@@ -190,8 +276,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-15T06:00:25+00:00",
+   "title_en": "Who am I? Plus today's other quizzes",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Kiss vows Wallabies will 'return fire' vs All Blacks | Rennie: Quality win was coming",
@@ -202,8 +290,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-15T06:00:00+00:00",
+   "title_en": "Kiss vows Wallabies will 'return fire' vs All Blacks | Rennie: Quality win was coming",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "The F1 pit stop that helped save lives",
@@ -214,8 +304,10 @@
    "lang": "en",
    "sport": "سباقات",
    "published": "2026-10-15T05:56:53+00:00",
+   "title_en": "The F1 pit stop that helped save lives",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Southgate does not see return to Premier League management",
@@ -226,11 +318,15 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-15T05:39:10+00:00",
+   "title_en": "Southgate does not see return to Premier League management",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": [
+    "إنجلترا"
+   ]
   },
   {
-   "title": "The World Cup co-hosts for whom rugby league is a national obsession",
+   "title": "From tear gas to just tears - rugby league's most passionate fans?",
    "summary": "",
    "link": "https://www.bbc.co.uk/sport/rugby-league/articles/cm2kwy742nj5o?at_medium=RSS&at_campaign=rss",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd62/live/9c67f6b0-c3fc-11f1-97a9-2d4b5e26e282.jpg",
@@ -238,8 +334,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-15T05:37:41+00:00",
+   "title_en": "From tear gas to just tears - rugby league's most passionate fans?",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Martínez has drawn back the curtain on Manchester United’s ruinous ownership | Jonathan Liew",
@@ -250,8 +348,24 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-15T05:00:23+00:00",
+   "title_en": "Martínez has drawn back the curtain on Manchester United’s ruinous ownership | Jonathan Liew",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
+  },
+  {
+   "title": "Meet the Wales back-row trio starring for Leicester",
+   "summary": "",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c6e9l2k5gkm0o?at_medium=RSS&at_campaign=rss",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c24/live/f7c52750-c7bf-11f1-9878-d389ad84cc55.png",
+   "source": "BBC Sport",
+   "lang": "en",
+   "sport": "رياضات أخرى",
+   "published": "2026-10-15T03:45:51+00:00",
+   "title_en": "Meet the Wales back-row trio starring for Leicester",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": []
   },
   {
    "title": "ستارلينك في أوكرانيا: لماذا تُعد شبكة ماسك عصب اتصالات مهماً جداً في ساحة المعركة؟",
@@ -263,7 +377,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-15T03:40:01+00:00",
    "title_ar": "ستارلينك في أوكرانيا: لماذا تُعد شبكة ماسك عصب اتصالات مهماً جداً في ساحة المعركة؟",
-   "summary_ar": "ستارلينك في أوكرانيا: لماذا تُعد شبكة ماسك عصب اتصالات مهماً جداً في ساحة المعركة؟ BBC"
+   "summary_ar": "ستارلينك في أوكرانيا: لماذا تُعد شبكة ماسك عصب اتصالات مهماً جداً في ساحة المعركة؟ BBC",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "Brewers go one win from World Series as back-to-back homers sink Dodgers",
@@ -274,8 +390,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-15T03:39:46+00:00",
+   "title_en": "Brewers go one win from World Series as back-to-back homers sink Dodgers",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "\"قضية لسحب الجنسية والترحيل\".. أنباء عن مصادرة جواز سفر إلهان عمر وهاتفها",
@@ -287,7 +405,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-15T03:26:16+00:00",
    "title_ar": "\"قضية لسحب الجنسية والترحيل\".. أنباء عن مصادرة جواز سفر إلهان عمر وهاتفها",
-   "summary_ar": "\"قضية لسحب الجنسية والترحيل\".. أنباء عن مصادرة جواز سفر إلهان عمر وهاتفها الجزيرة نت"
+   "summary_ar": "\"قضية لسحب الجنسية والترحيل\".. أنباء عن مصادرة جواز سفر إلهان عمر وهاتفها الجزيرة نت",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "\"لن يكون بالكونغرس عضو بالإخوان المسلمين\".. ترمب يهاجم عبدول السيد بادعاء جديد",
@@ -299,7 +419,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-15T02:23:46+00:00",
    "title_ar": "\"لن يكون بالكونغرس عضو بالإخوان المسلمين\".. ترمب يهاجم عبدول السيد بادعاء جديد",
-   "summary_ar": "\"لن يكون بالكونغرس عضو بالإخوان المسلمين\".. ترمب يهاجم عبدول السيد بادعاء جديد الجزيرة نت"
+   "summary_ar": "\"لن يكون بالكونغرس عضو بالإخوان المسلمين\".. ترمب يهاجم عبدول السيد بادعاء جديد الجزيرة نت",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "Injuries force Wallabies into No 10 change for second Bledisloe Test against All Blacks",
@@ -310,8 +432,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-15T02:12:18+00:00",
+   "title_en": "Injuries force Wallabies into No 10 change for second Bledisloe Test against All Blacks",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "'It's what football is all about' - Three things we learnt from City vs PSG",
@@ -322,8 +446,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-15T00:03:00+00:00",
+   "title_en": "'It's what football is all about' - Three things we learnt from City vs PSG",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "دوري أبطال أوروبا: ريال مدريد يقلب الطاولة على روما وسان جيرمان يهزم سيتي وباركولا يقود ليفربول إلى سداسية",
@@ -335,7 +461,11 @@
    "sport": "كرة القدم",
    "published": "2026-10-14T23:34:53+00:00",
    "title_ar": "دوري أبطال أوروبا: ريال مدريد يقلب الطاولة على روما وسان جيرمان يهزم سيتي وباركولا يقود ليفربول إلى سداسية",
-   "summary_ar": "دوري أبطال أوروبا: ريال مدريد يقلب الطاولة على روما وسان جيرمان يهزم سيتي وباركولا يقود ليفربول إلى سداسية الجزيرة نت"
+   "summary_ar": "دوري أبطال أوروبا: ريال مدريد يقلب الطاولة على روما وسان جيرمان يهزم سيتي وباركولا يقود ليفربول إلى سداسية الجزيرة نت",
+   "title_en": null,
+   "countries": [
+    "إسبانيا"
+   ]
   },
   {
    "title": "'Players won't like it' - Martinez apologises, but is the damage done?",
@@ -346,8 +476,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T23:13:53+00:00",
+   "title_en": "'Players won't like it' - Martinez apologises, but is the damage done?",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "'Shameless' - Mourinho critical of Vinicius Jr ban timing",
@@ -358,8 +490,12 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T23:13:20+00:00",
+   "title_en": "'Shameless' - Mourinho critical of Vinicius Jr ban timing",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": [
+    "إسبانيا"
+   ]
   },
   {
    "title": "Perfect PSG - can anybody stop the defending champions?",
@@ -370,8 +506,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-14T23:07:16+00:00",
+   "title_en": "Perfect PSG - can anybody stop the defending champions?",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Martinez releases statement to clarify outburst - but does not apologise",
@@ -382,8 +520,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T23:05:00+00:00",
+   "title_en": "Martinez releases statement to clarify outburst - but does not apologise",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Vinicius Jr to miss El Clasico after hair pull red card",
@@ -394,8 +534,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T23:05:00+00:00",
+   "title_en": "Vinicius Jr to miss El Clasico after hair pull red card",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Real Madrid produce incredible late comeback to beat Roma",
@@ -406,8 +548,12 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T23:01:00+00:00",
+   "title_en": "Real Madrid produce incredible late comeback to beat Roma",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": [
+    "إسبانيا"
+   ]
   },
   {
    "title": "Manchester City are suddenly box-office in age of charge-rage and mega defiance | Barney Ronay",
@@ -418,8 +564,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T23:00:51+00:00",
+   "title_en": "Manchester City are suddenly box-office in age of charge-rage and mega defiance | Barney Ronay",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "وزير خارجية البحرين يلتقي الرئيس الإسرائيلي في أذربيجان",
@@ -431,7 +579,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T22:59:26+00:00",
    "title_ar": "وزير خارجية البحرين يلتقي الرئيس الإسرائيلي في أذربيجان",
-   "summary_ar": "وزير خارجية البحرين يلتقي الرئيس الإسرائيلي في أذربيجان الجزيرة نت"
+   "summary_ar": "وزير خارجية البحرين يلتقي الرئيس الإسرائيلي في أذربيجان الجزيرة نت",
+   "title_en": null,
+   "countries": [
+    "البحرين"
+   ]
   },
   {
    "title": "Guardiola's return, Man City's defiance - and a game of glorious chaos",
@@ -442,8 +594,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-14T22:57:23+00:00",
+   "title_en": "Guardiola's return, Man City's defiance - and a game of glorious chaos",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "الهجوم الأمريكي الإسرائيلي على إيران 2026",
@@ -455,7 +609,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T22:52:02+00:00",
    "title_ar": "الهجوم الأمريكي الإسرائيلي على إيران 2026",
-   "summary_ar": "الهجوم الأمريكي الإسرائيلي على إيران 2026 BBC"
+   "summary_ar": "الهجوم الأمريكي الإسرائيلي على إيران 2026 BBC",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "Jackson steps up again as Aston Villa revival continues",
@@ -466,8 +622,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T22:45:22+00:00",
+   "title_en": "Jackson steps up again as Aston Villa revival continues",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Outburst came out of 'anger and frustration' - Martinez",
@@ -478,8 +636,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-14T22:42:02+00:00",
+   "title_en": "Outburst came out of 'anger and frustration' - Martinez",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Enzo Maresca insists Manchester City are ‘close’ to PSG despite home defeat",
@@ -490,8 +650,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-14T22:40:38+00:00",
+   "title_en": "Enzo Maresca insists Manchester City are ‘close’ to PSG despite home defeat",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "West Ham hit nine-man Lincoln for six",
@@ -502,8 +664,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T22:39:00+00:00",
+   "title_en": "West Ham hit nine-man Lincoln for six",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Aston Villa latest: Jackson impresses with double in Fenerbahce thrashing",
@@ -514,8 +678,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T22:18:00+00:00",
+   "title_en": "Aston Villa latest: Jackson impresses with double in Fenerbahce thrashing",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Manchester United teammates widely share Martínez view that Wilcox is failing",
@@ -526,8 +692,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-14T22:17:07+00:00",
+   "title_en": "Manchester United teammates widely share Martínez view that Wilcox is failing",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "PSG on different level - but where do they rank against other great sides?",
@@ -538,8 +706,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T21:55:37+00:00",
+   "title_en": "PSG on different level - but where do they rank against other great sides?",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Isco snatches late Betis win as they edge past Porto",
@@ -550,8 +720,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T21:51:42+00:00",
+   "title_en": "Isco snatches late Betis win as they edge past Porto",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "\"بمثابة ضربة نووية\".. كيف انطفأت \"عيون\" الأوكرانيين في الميدان؟",
@@ -563,7 +735,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T21:50:13+00:00",
    "title_ar": "\"بمثابة ضربة نووية\".. كيف انطفأت \"عيون\" الأوكرانيين في الميدان؟",
-   "summary_ar": "\"بمثابة ضربة نووية\".. كيف انطفأت \"عيون\" الأوكرانيين في الميدان؟ الجزيرة نت"
+   "summary_ar": "\"بمثابة ضربة نووية\".. كيف انطفأت \"عيون\" الأوكرانيين في الميدان؟ الجزيرة نت",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "Man City beaten by PSG in thriller as Guardiola returns to Etihad",
@@ -574,8 +748,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T21:50:00+00:00",
+   "title_en": "Man City beaten by PSG in thriller as Guardiola returns to Etihad",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Aston Villa hit Fenerbahce for six in big win at Villa Park",
@@ -586,8 +762,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T21:50:00+00:00",
+   "title_en": "Aston Villa hit Fenerbahce for six in big win at Villa Park",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "University of Maryland club tennis team suspended over racist imagery sent to other schools",
@@ -598,8 +776,10 @@
    "lang": "en",
    "sport": "التنس",
    "published": "2026-10-14T21:46:50+00:00",
+   "title_en": "University of Maryland club tennis team suspended over racist imagery sent to other schools",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Champions League: Mourinho’s Real Madrid stage wild comeback on Roma return",
@@ -610,8 +790,12 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T21:43:26+00:00",
+   "title_en": "Champions League: Mourinho’s Real Madrid stage wild comeback on Roma return",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": [
+    "إسبانيا"
+   ]
   },
   {
    "title": "Championship roundup: Soucek doubles up as West Ham hit nine-man Lincoln for six",
@@ -622,8 +806,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T21:40:12+00:00",
+   "title_en": "Championship roundup: Soucek doubles up as West Ham hit nine-man Lincoln for six",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "الدانمارك تنفي منح أمريكا امتيازات للتعدين في غرينلاند",
@@ -635,7 +821,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T21:38:49+00:00",
    "title_ar": "الدانمارك تنفي منح أمريكا امتيازات للتعدين في غرينلاند",
-   "summary_ar": "الدانمارك تنفي منح أمريكا امتيازات للتعدين في غرينلاند الجزيرة نت"
+   "summary_ar": "الدانمارك تنفي منح أمريكا امتيازات للتعدين في غرينلاند الجزيرة نت",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "جدول مباريات اليوم الخميس 15 أكتوبر 2026 .. القنوات الناقلة والمعلقين",
@@ -647,7 +835,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T21:38:18+00:00",
    "title_ar": "جدول مباريات اليوم الخميس 15 أكتوبر 2026 .. القنوات الناقلة والمعلقين",
-   "summary_ar": "جدول مباريات اليوم الخميس 15 أكتوبر 2026 .. القنوات الناقلة والمعلقين Kooora"
+   "summary_ar": "جدول مباريات اليوم الخميس 15 أكتوبر 2026 .. القنوات الناقلة والمعلقين Kooora",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "Real Madrid stun Roma after dramatic late comeback",
@@ -658,8 +848,12 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T21:31:34+00:00",
+   "title_en": "Real Madrid stun Roma after dramatic late comeback",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": [
+    "إسبانيا"
+   ]
   },
   {
    "title": "Manchester City 2-4 Paris Saint-Germain: Champions League – as it happened",
@@ -670,8 +864,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T21:30:22+00:00",
+   "title_en": "Manchester City 2-4 Paris Saint-Germain: Champions League – as it happened",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Bodo/Glimt impress in win over Dortmund",
@@ -682,8 +878,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T21:28:39+00:00",
+   "title_en": "Bodo/Glimt impress in win over Dortmund",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Martinez's future at Man Utd in doubt - Thursday's gossip",
@@ -694,8 +892,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-14T21:27:34+00:00",
+   "title_en": "Martinez's future at Man Utd in doubt - Thursday's gossip",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Villa rewrite the record books as they hit Fenerbahce for six",
@@ -706,8 +906,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-14T21:24:34+00:00",
+   "title_en": "Villa rewrite the record books as they hit Fenerbahce for six",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Man City show fight but fall short of fightback against slick PSG",
@@ -718,8 +920,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T21:19:45+00:00",
+   "title_en": "Man City show fight but fall short of fightback against slick PSG",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Quickfire Doué and Dembélé inspire PSG to thrilling win at Manchester City",
@@ -730,8 +934,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-14T21:13:26+00:00",
+   "title_en": "Quickfire Doué and Dembélé inspire PSG to thrilling win at Manchester City",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Millwall’s Alex Neil criticised for his comments on stoppage for alleged racism",
@@ -742,8 +948,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T21:12:34+00:00",
+   "title_en": "Millwall’s Alex Neil criticised for his comments on stoppage for alleged racism",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "خبير تحكيمي يحسمها.. هل استحق إندريك ركلة جزاء أمام روما؟",
@@ -755,7 +963,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T21:04:50+00:00",
    "title_ar": "خبير تحكيمي يحسمها.. هل استحق إندريك ركلة جزاء أمام روما؟",
-   "summary_ar": "خبير تحكيمي يحسمها.. هل استحق إندريك ركلة جزاء أمام روما؟ Kooora"
+   "summary_ar": "خبير تحكيمي يحسمها.. هل استحق إندريك ركلة جزاء أمام روما؟ Kooora",
+   "title_en": null,
+   "countries": [
+    "المغرب"
+   ]
   },
   {
    "title": "Jackson and Barkley doubles sink feeble Fenerbahce in record Aston Villa win",
@@ -766,8 +978,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T21:02:51+00:00",
+   "title_en": "Jackson and Barkley doubles sink feeble Fenerbahce in record Aston Villa win",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Feyenoord come from behind to beat Como",
@@ -778,8 +992,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T21:00:55+00:00",
+   "title_en": "Feyenoord come from behind to beat Como",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Tresoldi hat-trick fires Club Brugge to victory over Inter in seven-goal thriller",
@@ -790,8 +1006,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T21:00:52+00:00",
+   "title_en": "Tresoldi hat-trick fires Club Brugge to victory over Inter in seven-goal thriller",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Gordon scores as 'brilliant Barcelona' thrash Galatasaray",
@@ -802,8 +1020,12 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T21:00:43+00:00",
+   "title_en": "Gordon scores as 'brilliant Barcelona' thrash Galatasaray",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": [
+    "إسبانيا"
+   ]
   },
   {
    "title": "Viking snatch draw against Bayern Munich in six-goal thriller",
@@ -814,8 +1036,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T21:00:40+00:00",
+   "title_en": "Viking snatch draw against Bayern Munich in six-goal thriller",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Substitutes steal the show as Arsenal score three against Lille",
@@ -826,8 +1050,12 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T21:00:36+00:00",
+   "title_en": "Substitutes steal the show as Arsenal score three against Lille",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": [
+    "إنجلترا"
+   ]
   },
   {
    "title": "Yoro sent off as Man Utd stumble to defeat against Atletico Madrid",
@@ -838,8 +1066,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T21:00:34+00:00",
+   "title_en": "Yoro sent off as Man Utd stumble to defeat against Atletico Madrid",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Brilliant Barcola scores first hat-trick to get lift-off at Liverpool",
@@ -850,8 +1080,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-14T21:00:28+00:00",
+   "title_en": "Brilliant Barcola scores first hat-trick to get lift-off at Liverpool",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Barcola shines as Liverpool score six to beat LASK",
@@ -862,8 +1094,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T21:00:24+00:00",
+   "title_en": "Barcola shines as Liverpool score six to beat LASK",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Sunderland latest: Le Bris urges players to 'respect' Torreense",
@@ -874,8 +1108,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T21:00:00+00:00",
+   "title_en": "Sunderland latest: Le Bris urges players to 'respect' Torreense",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "LIV accuses DP World Tour of player 'interference'",
@@ -886,8 +1122,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-14T20:54:43+00:00",
+   "title_en": "LIV accuses DP World Tour of player 'interference'",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "On night of mayhem for Liverpool, Barcola arrives in style",
@@ -898,8 +1136,12 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T20:46:35+00:00",
+   "title_en": "On night of mayhem for Liverpool, Barcola arrives in style",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": [
+    "فرنسا"
+   ]
   },
   {
    "title": "من العقد الجديد إلى شائعات \"الشبيه\".. ما الذي يحدث لفينيسيوس في ريال مدريد؟",
@@ -911,7 +1153,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T20:41:53+00:00",
    "title_ar": "من العقد الجديد إلى شائعات \"الشبيه\".. ما الذي يحدث لفينيسيوس في ريال مدريد؟",
-   "summary_ar": "من العقد الجديد إلى شائعات \"الشبيه\".. ما الذي يحدث لفينيسيوس في ريال مدريد؟ الجزيرة نت"
+   "summary_ar": "من العقد الجديد إلى شائعات \"الشبيه\".. ما الذي يحدث لفينيسيوس في ريال مدريد؟ الجزيرة نت",
+   "title_en": null,
+   "countries": [
+    "إسبانيا"
+   ]
   },
   {
    "title": "نتنياهو يعترف لأول مرة بزيارة رئيس المخابرات المصرية قبل هجوم 7 أكتوبر",
@@ -923,7 +1169,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T20:12:24+00:00",
    "title_ar": "نتنياهو يعترف لأول مرة بزيارة رئيس المخابرات المصرية قبل هجوم 7 أكتوبر",
-   "summary_ar": "نتنياهو يعترف لأول مرة بزيارة رئيس المخابرات المصرية قبل هجوم 7 أكتوبر الجزيرة نت"
+   "summary_ar": "نتنياهو يعترف لأول مرة بزيارة رئيس المخابرات المصرية قبل هجوم 7 أكتوبر الجزيرة نت",
+   "title_en": null,
+   "countries": [
+    "مصر"
+   ]
   },
   {
    "title": "بالفيديو.. دي رون يحطم أسطورة باتيستوتا من بوابة ريال مدريد",
@@ -935,7 +1185,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T20:01:58+00:00",
    "title_ar": "بالفيديو.. دي رون يحطم أسطورة باتيستوتا من بوابة ريال مدريد",
-   "summary_ar": "بالفيديو.. دي رون يحطم أسطورة باتيستوتا من بوابة ريال مدريد Kooora"
+   "summary_ar": "بالفيديو.. دي رون يحطم أسطورة باتيستوتا من بوابة ريال مدريد Kooora",
+   "title_en": null,
+   "countries": [
+    "إسبانيا"
+   ]
   },
   {
    "title": "\"من المزعج مشاهدة ذلك\".. روني يطلق سهام الانتقادات صوب كريستيانو بعد \"أزمة جيسوس\"",
@@ -947,7 +1201,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T19:41:51+00:00",
    "title_ar": "\"من المزعج مشاهدة ذلك\".. روني يطلق سهام الانتقادات صوب كريستيانو بعد \"أزمة جيسوس\"",
-   "summary_ar": "\"من المزعج مشاهدة ذلك\".. روني يطلق سهام الانتقادات صوب كريستيانو بعد \"أزمة جيسوس\" Kooora"
+   "summary_ar": "\"من المزعج مشاهدة ذلك\".. روني يطلق سهام الانتقادات صوب كريستيانو بعد \"أزمة جيسوس\" Kooora",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "رغم قيادة ريال مدريد.. جماهير روما تكرم مورينيو بـ\"المجد الأبدي\"",
@@ -959,7 +1215,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T19:37:48+00:00",
    "title_ar": "رغم قيادة ريال مدريد.. جماهير روما تكرم مورينيو بـ\"المجد الأبدي\"",
-   "summary_ar": "رغم قيادة ريال مدريد.. جماهير روما تكرم مورينيو بـ\"المجد الأبدي\" Kooora"
+   "summary_ar": "رغم قيادة ريال مدريد.. جماهير روما تكرم مورينيو بـ\"المجد الأبدي\" Kooora",
+   "title_en": null,
+   "countries": [
+    "إسبانيا"
+   ]
   },
   {
    "title": "Barcola scores hat-trick as Liverpool thrash LASK",
@@ -970,8 +1230,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T19:30:00+00:00",
+   "title_en": "Barcola scores hat-trick as Liverpool thrash LASK",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "واشنطن تدعم التهدئة بين إثيوبيا وإريتريا",
@@ -983,7 +1245,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T19:21:46+00:00",
    "title_ar": "واشنطن تدعم التهدئة بين إثيوبيا وإريتريا",
-   "summary_ar": "واشنطن تدعم التهدئة بين إثيوبيا وإريتريا سكاي نيوز عربية"
+   "summary_ar": "واشنطن تدعم التهدئة بين إثيوبيا وإريتريا سكاي نيوز عربية",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "Lask 3-6 Liverpool: Champions League – as it happened",
@@ -994,8 +1258,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T19:04:44+00:00",
+   "title_en": "Lask 3-6 Liverpool: Champions League – as it happened",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "عقوبة صادمة لفينيسيوس بعد واقعة \"شد الشعر\"",
@@ -1007,7 +1273,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T19:00:24+00:00",
    "title_ar": "عقوبة صادمة لفينيسيوس بعد واقعة \"شد الشعر\"",
-   "summary_ar": "عقوبة صادمة لفينيسيوس بعد واقعة \"شد الشعر\" سكاي نيوز عربية"
+   "summary_ar": "عقوبة صادمة لفينيسيوس بعد واقعة \"شد الشعر\" سكاي نيوز عربية",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "‘I expect more’: the key questions from Martínez’s Manchester United broadside | Jamie Jackson",
@@ -1018,8 +1286,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T19:00:09+00:00",
+   "title_en": "‘I expect more’: the key questions from Martínez’s Manchester United broadside | Jamie Jackson",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Bradley Barcola’s clinical hat-trick inspires Liverpool to 6-3 rout of Lask",
@@ -1030,8 +1300,24 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T18:51:39+00:00",
+   "title_en": "Bradley Barcola’s clinical hat-trick inspires Liverpool to 6-3 rout of Lask",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
+  },
+  {
+   "title": "ماكرون والشرع يبحثان الإعمار وتنويع مسارات الطاقة",
+   "summary": "ماكرون والشرع يبحثان الإعمار وتنويع مسارات الطاقة سكاي نيوز عربية",
+   "link": "https://news.google.com/rss/articles/CBMixgNBVV95cUxOLXBvN1BzREVxZVRMbWlYTkVJZldvU0cxcHNIYmpFT0VDbDJMUUdRR1VLYXNlbm1tNmtuak1mRzRPV3AwN05aNGRvS1lBRTZ0TWhZU2RhYy1CUlZKTGJFMF9ZMUJvamlhNnQtT2w2TklUbi1QWGdhM1F3UUNvQ1d0QVJIVkdZVVRmRk83YU9wNnBNR1AyRW9FUUd2TXE1X2pNUElSYUZyOUo3MHVzV3ZUS2huM2V2X1RLQjdoeC1BUGtMa0RrT2FxVFZzbV9xR1BkaUNWN3cwdWdSQ0dZQnFPTjZmNVJJVUZzSjl2TjRtMmxEc2Q1bHZ2ejJON2psNFJ4SWVVQXh0ZnBfcGVMTDMtazNaSmUtR2JjblRpYllnX3p2QVRJQjZvcy02Y1l2T2YyUEIxOEQ3blJ3ZnBJaG1uMDZvS0xYeTBkckQ2UlFwaHZXS0xaaEwyd2lpQjNVdjA3V3d6cEhLV0J2TDAwaGpURkdPclFJcEU5N2NTWnFpTXUzZ1lYOW1HNXAwWjU3NlM5M3BoXzV1VGY5eG1SdndDWWxadHNnLVNYQkNZelB3eElMV0lncnFXdkd2QjRUTDVNN1FJSnBB0gHGA0FVX3lxTE4tcG83UHNERXFlVExtaVhORUlmV29TRzFwc0hiakVPRUNsMkxRR1FHVUthc2VubW02a25qTWZHNE9XcDA3Tlo0ZG9LWUFFNnRNaFlTZGFjLUJSVkpMYkUwX1kxQm9qaWE2dC1PbDZOSVRuLVBYZ2EzUXdRQ29DV3RBUkhWR1lVVGZGTzdhT3A2cE1HUDJFb0VRR3ZNcTVfak1QSVJhRnI5SjcwdXNXdlRLaG4zZXZfVEtCN2h4LUFQa0xrRGtPYXFUVnNtX3FHUGRpQ1Y3dzB1Z1JDR1lCcU9ONmY1UklVRnNKOXZONG0ybERzZDVsdnZ6Mk43amw0UnhJZVVBeHRmcF9wZUxMMy1rM1pKZS1HYmNuVGliWWdfenZBVElCNm9zLTZjWXZPZjJQQjE4RDduUndmcElobW4wNm9LTFh5MGRyRDZSUXBodldLTFpoTDJ3aWlCM1V2MDdXd3pwSEtXQnZMMDBoalRGR09yUUlwRTk3Y1NacWlNdTNnWVg5bUc1cDBaNTc2UzkzcGhfNXVUZjl4bVJ2d0NZbFp0c2ctU1hCQ1l6UHd4SUxXSWdycVd2R3ZCNFRMNU03UUlKcEE?oc=5",
+   "image": "",
+   "source": "سكاي نيوز عربية",
+   "lang": "ar",
+   "sport": "رياضات أخرى",
+   "published": "2026-10-14T18:36:01+00:00",
+   "title_ar": "ماكرون والشرع يبحثان الإعمار وتنويع مسارات الطاقة",
+   "summary_ar": "ماكرون والشرع يبحثان الإعمار وتنويع مسارات الطاقة سكاي نيوز عربية",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "بالفيديو.. هدف الجزائري حاج موسى ضد كومو في دوري الأبطال",
@@ -1043,7 +1329,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T18:35:59+00:00",
    "title_ar": "بالفيديو.. هدف الجزائري حاج موسى ضد كومو في دوري الأبطال",
-   "summary_ar": "بالفيديو.. هدف الجزائري حاج موسى ضد كومو في دوري الأبطال الجزيرة نت"
+   "summary_ar": "بالفيديو.. هدف الجزائري حاج موسى ضد كومو في دوري الأبطال الجزيرة نت",
+   "title_en": null,
+   "countries": [
+    "الجزائر"
+   ]
   },
   {
    "title": "انتقادات لترامب بعد نشره فيديو شاب بريطاني أودى نمر بحياته في محمية للحياة البرية في بريطانيا",
@@ -1055,7 +1345,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T18:29:50+00:00",
    "title_ar": "انتقادات لترامب بعد نشره فيديو شاب بريطاني أودى نمر بحياته في محمية للحياة البرية في بريطانيا",
-   "summary_ar": "انتقادات لترامب بعد نشره فيديو شاب بريطاني أودى نمر بحياته في محمية للحياة البرية في بريطانيا BBC"
+   "summary_ar": "انتقادات لترامب بعد نشره فيديو شاب بريطاني أودى نمر بحياته في محمية للحياة البرية في بريطانيا BBC",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "مجلس الفيفا يجتمع وسط تصاعد الضغوط على إنفانتينو",
@@ -1067,7 +1359,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T18:28:28+00:00",
    "title_ar": "مجلس الفيفا يجتمع وسط تصاعد الضغوط على إنفانتينو",
-   "summary_ar": "مجلس الفيفا يجتمع وسط تصاعد الضغوط على إنفانتينو سكاي نيوز عربية"
+   "summary_ar": "مجلس الفيفا يجتمع وسط تصاعد الضغوط على إنفانتينو سكاي نيوز عربية",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "التشكيل الرسمي.. هالاند وديمبلي وجها لوجه في موقعة مانشستر سيتي وباريس",
@@ -1079,7 +1373,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T18:21:34+00:00",
    "title_ar": "التشكيل الرسمي.. هالاند وديمبلي وجها لوجه في موقعة مانشستر سيتي وباريس",
-   "summary_ar": "التشكيل الرسمي.. هالاند وديمبلي وجها لوجه في موقعة مانشستر سيتي وباريس Kooora"
+   "summary_ar": "التشكيل الرسمي.. هالاند وديمبلي وجها لوجه في موقعة مانشستر سيتي وباريس Kooora",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "ملك إسبانيا يثير جدلاً بزيارته لسبتة ومليلية.. كيف تفاعل المغاربة؟",
@@ -1091,7 +1387,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T18:08:23+00:00",
    "title_ar": "ملك إسبانيا يثير جدلاً بزيارته لسبتة ومليلية.. كيف تفاعل المغاربة؟",
-   "summary_ar": "ملك إسبانيا يثير جدلاً بزيارته لسبتة ومليلية.. كيف تفاعل المغاربة؟ BBC"
+   "summary_ar": "ملك إسبانيا يثير جدلاً بزيارته لسبتة ومليلية.. كيف تفاعل المغاربة؟ BBC",
+   "title_en": null,
+   "countries": [
+    "إسبانيا"
+   ]
   },
   {
    "title": "3 تغييرات ومفاجأة.. مورينيو يعيد فينيسيوس لتشكيل ريال مدريد ضد روما",
@@ -1103,7 +1403,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T18:07:44+00:00",
    "title_ar": "3 تغييرات ومفاجأة.. مورينيو يعيد فينيسيوس لتشكيل ريال مدريد ضد روما",
-   "summary_ar": "3 تغييرات ومفاجأة.. مورينيو يعيد فينيسيوس لتشكيل ريال مدريد ضد روما Kooora"
+   "summary_ar": "3 تغييرات ومفاجأة.. مورينيو يعيد فينيسيوس لتشكيل ريال مدريد ضد روما Kooora",
+   "title_en": null,
+   "countries": [
+    "إسبانيا"
+   ]
   },
   {
    "title": "اعتقال سعودي بشبهة التنصت على أسرار OpenAi",
@@ -1115,7 +1419,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T18:04:36+00:00",
    "title_ar": "اعتقال سعودي بشبهة التنصت على أسرار OpenAi",
-   "summary_ar": "اعتقال سعودي بشبهة التنصت على أسرار OpenAi BBC"
+   "summary_ar": "اعتقال سعودي بشبهة التنصت على أسرار OpenAi BBC",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "شارك بنهائي أمم أفريقيا.. نجم منتخب المغرب يعلن اعتزاله في عمر 32 عاما",
@@ -1127,7 +1433,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T18:01:27+00:00",
    "title_ar": "شارك بنهائي أمم أفريقيا.. نجم منتخب المغرب يعلن اعتزاله في عمر 32 عاما",
-   "summary_ar": "شارك بنهائي أمم أفريقيا.. نجم منتخب المغرب يعلن اعتزاله في عمر 32 عاما Kooora"
+   "summary_ar": "شارك بنهائي أمم أفريقيا.. نجم منتخب المغرب يعلن اعتزاله في عمر 32 عاما Kooora",
+   "title_en": null,
+   "countries": [
+    "المغرب"
+   ]
   },
   {
    "title": "الحوثيون يعلنون استهداف مطار الرياض بصاروخ بالستي",
@@ -1139,7 +1449,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T17:56:35+00:00",
    "title_ar": "الحوثيون يعلنون استهداف مطار الرياض بصاروخ بالستي",
-   "summary_ar": "الحوثيون يعلنون استهداف مطار الرياض بصاروخ بالستي سكاي نيوز عربية"
+   "summary_ar": "الحوثيون يعلنون استهداف مطار الرياض بصاروخ بالستي سكاي نيوز عربية",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "- BBC News عربي",
@@ -1151,7 +1463,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T17:24:09+00:00",
    "title_ar": "- BBC News عربي",
-   "summary_ar": "- BBC News عربي BBC"
+   "summary_ar": "- BBC News عربي BBC",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "Red Bull F1 boss Mekies gets new deal to 2031",
@@ -1162,8 +1476,10 @@
    "lang": "en",
    "sport": "سباقات",
    "published": "2026-10-14T17:02:47+00:00",
+   "title_en": "Red Bull F1 boss Mekies gets new deal to 2031",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Red Roses make four changes to starting XV for Canada Test",
@@ -1174,8 +1490,12 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T17:02:00+00:00",
+   "title_en": "Red Roses make four changes to starting XV for Canada Test",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": [
+    "إنجلترا"
+   ]
   },
   {
    "title": "Manchester City staff invited on government trade trip to India",
@@ -1186,8 +1506,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T17:00:08+00:00",
+   "title_en": "Manchester City staff invited on government trade trip to India",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Removing political speech from MLS fans is untenable – just ask Austin FC",
@@ -1198,8 +1520,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-14T16:58:53+00:00",
+   "title_en": "Removing political speech from MLS fans is untenable – just ask Austin FC",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "ارتباك وانسحاب مفاجئ لمتحدثة ترامب الجديدة بأول مؤتمر صحفي",
@@ -1211,7 +1535,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T16:57:16+00:00",
    "title_ar": "ارتباك وانسحاب مفاجئ لمتحدثة ترامب الجديدة بأول مؤتمر صحفي",
-   "summary_ar": "ارتباك وانسحاب مفاجئ لمتحدثة ترامب الجديدة بأول مؤتمر صحفي BBC"
+   "summary_ar": "ارتباك وانسحاب مفاجئ لمتحدثة ترامب الجديدة بأول مؤتمر صحفي BBC",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "مورينيو للمهتمين بضم نجم ريال مدريد: انسوا هذا الأمر تمامًا",
@@ -1223,7 +1549,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T16:53:05+00:00",
    "title_ar": "مورينيو للمهتمين بضم نجم ريال مدريد: انسوا هذا الأمر تمامًا",
-   "summary_ar": "مورينيو للمهتمين بضم نجم ريال مدريد: انسوا هذا الأمر تمامًا Kooora"
+   "summary_ar": "مورينيو للمهتمين بضم نجم ريال مدريد: انسوا هذا الأمر تمامًا Kooora",
+   "title_en": null,
+   "countries": [
+    "إسبانيا"
+   ]
   },
   {
    "title": "مغربي عمره 60 عاما يمارس رياضة التزلج في شوارع سلا.. ماذا قال لترندينغ؟",
@@ -1235,7 +1565,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T16:47:27+00:00",
    "title_ar": "مغربي عمره 60 عاما يمارس رياضة التزلج في شوارع سلا.. ماذا قال لترندينغ؟",
-   "summary_ar": "مغربي عمره 60 عاما يمارس رياضة التزلج في شوارع سلا.. ماذا قال لترندينغ؟ BBC"
+   "summary_ar": "مغربي عمره 60 عاما يمارس رياضة التزلج في شوارع سلا.. ماذا قال لترندينغ؟ BBC",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "تصعيد جديد في هرمز.. غرق سفينة سنغافورية وإصابة أخرى بمقذوفات مجهولة",
@@ -1247,7 +1579,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T16:39:13+00:00",
    "title_ar": "تصعيد جديد في هرمز.. غرق سفينة سنغافورية وإصابة أخرى بمقذوفات مجهولة",
-   "summary_ar": "تصعيد جديد في هرمز.. غرق سفينة سنغافورية وإصابة أخرى بمقذوفات مجهولة الجزيرة نت"
+   "summary_ar": "تصعيد جديد في هرمز.. غرق سفينة سنغافورية وإصابة أخرى بمقذوفات مجهولة الجزيرة نت",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "بانتصار جنوني على الزمالك.. الأهلي يفوز ببطولة أفريقيا لكرة اليد للمرة الرابعة تواليا",
@@ -1259,7 +1593,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T16:35:34+00:00",
    "title_ar": "بانتصار جنوني على الزمالك.. الأهلي يفوز ببطولة أفريقيا لكرة اليد للمرة الرابعة تواليا",
-   "summary_ar": "بانتصار جنوني على الزمالك.. الأهلي يفوز ببطولة أفريقيا لكرة اليد للمرة الرابعة تواليا Kooora"
+   "summary_ar": "بانتصار جنوني على الزمالك.. الأهلي يفوز ببطولة أفريقيا لكرة اليد للمرة الرابعة تواليا Kooora",
+   "title_en": null,
+   "countries": [
+    "مصر"
+   ]
   },
   {
    "title": "شركة \"أوبن إيه آي\": ماذا نعرف عن توقيف مهندس سعودي في أمريكا بتهمة زرع جهاز تسجيل ؟",
@@ -1271,7 +1609,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T16:33:53+00:00",
    "title_ar": "شركة \"أوبن إيه آي\": ماذا نعرف عن توقيف مهندس سعودي في أمريكا بتهمة زرع جهاز تسجيل ؟",
-   "summary_ar": "شركة \"أوبن إيه آي\": ماذا نعرف عن توقيف مهندس سعودي في أمريكا بتهمة زرع جهاز تسجيل ؟ BBC"
+   "summary_ar": "شركة \"أوبن إيه آي\": ماذا نعرف عن توقيف مهندس سعودي في أمريكا بتهمة زرع جهاز تسجيل ؟ BBC",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "\"موسم الرياض\" يعلن تأجيل بطولة تنس عالمية",
@@ -1283,7 +1623,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T16:29:36+00:00",
    "title_ar": "\"موسم الرياض\" يعلن تأجيل بطولة تنس عالمية",
-   "summary_ar": "\"موسم الرياض\" يعلن تأجيل بطولة تنس عالمية سكاي نيوز عربية"
+   "summary_ar": "\"موسم الرياض\" يعلن تأجيل بطولة تنس عالمية سكاي نيوز عربية",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "Star-studded Saudi exhibition postponed after deadly attacks",
@@ -1294,8 +1636,12 @@
    "lang": "en",
    "sport": "التنس",
    "published": "2026-10-14T16:25:40+00:00",
+   "title_en": "Star-studded Saudi exhibition postponed after deadly attacks",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": [
+    "السعودية"
+   ]
   },
   {
    "title": "Jason Wilcox: ‘best eyes’ at Manchester United or promoted too far and too fast?",
@@ -1306,8 +1652,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T15:42:11+00:00",
+   "title_en": "Jason Wilcox: ‘best eyes’ at Manchester United or promoted too far and too fast?",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "عريس بوجهين.. زفاف في طابق واحتفال بطفله في طابق آخر",
@@ -1319,7 +1667,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T15:22:37+00:00",
    "title_ar": "عريس بوجهين.. زفاف في طابق واحتفال بطفله في طابق آخر",
-   "summary_ar": "عريس بوجهين.. زفاف في طابق واحتفال بطفله في طابق آخر BBC"
+   "summary_ar": "عريس بوجهين.. زفاف في طابق واحتفال بطفله في طابق آخر BBC",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "حشود تشارك في مليونية \"التعبئة الشعبية العامة\" في عدن",
@@ -1331,7 +1681,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T15:12:29+00:00",
    "title_ar": "حشود تشارك في مليونية \"التعبئة الشعبية العامة\" في عدن",
-   "summary_ar": "حشود تشارك في مليونية \"التعبئة الشعبية العامة\" في عدن سكاي نيوز عربية"
+   "summary_ar": "حشود تشارك في مليونية \"التعبئة الشعبية العامة\" في عدن سكاي نيوز عربية",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "بالفيديو.. الجزائري رياض محرز ينضم إلى نادي الشمال القطري",
@@ -1343,7 +1695,12 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T14:55:53+00:00",
    "title_ar": "بالفيديو.. الجزائري رياض محرز ينضم إلى نادي الشمال القطري",
-   "summary_ar": "بالفيديو.. الجزائري رياض محرز ينضم إلى نادي الشمال القطري الجزيرة نت"
+   "summary_ar": "بالفيديو.. الجزائري رياض محرز ينضم إلى نادي الشمال القطري الجزيرة نت",
+   "title_en": null,
+   "countries": [
+    "الجزائر",
+    "قطر"
+   ]
   },
   {
    "title": "اكتساح.. لغة الأرقام تبشّر ريال مدريد قبل موقعة روما",
@@ -1355,7 +1712,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T14:54:59+00:00",
    "title_ar": "اكتساح.. لغة الأرقام تبشّر ريال مدريد قبل موقعة روما",
-   "summary_ar": "اكتساح.. لغة الأرقام تبشّر ريال مدريد قبل موقعة روما Kooora"
+   "summary_ar": "اكتساح.. لغة الأرقام تبشّر ريال مدريد قبل موقعة روما Kooora",
+   "title_en": null,
+   "countries": [
+    "إسبانيا"
+   ]
   },
   {
    "title": "حين ينسى ترمب عُقدة الـ 444.. سيوقّع الصفقة مع إيران",
@@ -1367,19 +1728,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T14:52:16+00:00",
    "title_ar": "حين ينسى ترمب عُقدة الـ 444.. سيوقّع الصفقة مع إيران",
-   "summary_ar": "حين ينسى ترمب عُقدة الـ 444.. سيوقّع الصفقة مع إيران الجزيرة نت"
-  },
-  {
-   "title": "انفجار في إسرائيل.. 3 مصابين بحالة حرجة ومخاوف من تسرب مواد خطرة",
-   "summary": "انفجار في إسرائيل.. 3 مصابين بحالة حرجة ومخاوف من تسرب مواد خطرة الجزيرة نت",
-   "link": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxNdGRaTXZJaWhZUjFNMlZFVFQ4OU1HOURGMThqNWY1UGJBQzJVSzdKYy1RZGpYT3Y4bGZPb3RmQkhQdGF0WUZDY1ZZcFpvQ2pMVDl2OURMZmRWVTkySHlpYVlhaGZwcnBKdEhfRTVhd3hZc3o5amUzVTdxd2p2eHo2UmdnMkxCMzNfVkVTREl0TlRsNlhXRjloLUlwOGdseWhRMERsSktka2M2dDQtRkVvTGp6UEI2T1NWTnVWUnYwWkVvdGJNU19IUnIyTlZ6TmNlbFhjSFEyMmdTTFl0VGR6c0FXeUlvZkwxMWg4dmQ4VjM0M2lXNHJfM2tCU2FSQTY1UEZ3Qnc0Si1oSFcxZUJsSkhsYTJmdkduTTdNUjJ1el8zYTZYVlJIeWwxZndYZWtaUnIxOXRGalYxdDUtRFZEc2p2WktNRFU0d204aVlrRHdKX1poMGhDTzBhYzljeWPSAeQCQVVfeXFMTzFMR3QwWGxyX3NBdFdOeF9zX2w2MGxIaEJYb2tDT1U3MDZvZkdrNjZZNjh5UTBHWHBlamFoZVE0ZHdERlUzZ1lTNUFQQWpzN1hPMjU5OUpYekF2dUw0OHpENFlkcFBfYjdmYUVWYUZVREJ6T3JHZG9kR1VLRjZFOTBtZmgwRC1WcFdtUlVsQmtETDFRS0FkQjZLbWZxc24tWjk5UUtwRU5jS0pyZUxVallyU0RYd2xoeWR6VkpkbEN5WWt4QTVXUDFXZzByaXhiR2JBeUxRWjBTc3lzeG55MThfVmh2Q3YzdDU0T2Npa1ptTC1pNGh1UWVUcHdTTm5LQkJxNlBpNXhDcEhjMFY4TGM0LWNET0lCQnVfNkM2MlFqbGJUMXhFX2xYaHphVzV1djM3T3hmaFdxUEhtVV9SUlhzX2NYX3BrRkl5emk4Tm1rSUhjMFJKY1ZLZWhkaTktM1N2Qzg?oc=5",
-   "image": "",
-   "source": "الجزيرة",
-   "lang": "ar",
-   "sport": "رياضات أخرى",
-   "published": "2026-10-14T14:49:48+00:00",
-   "title_ar": "انفجار في إسرائيل.. 3 مصابين بحالة حرجة ومخاوف من تسرب مواد خطرة",
-   "summary_ar": "انفجار في إسرائيل.. 3 مصابين بحالة حرجة ومخاوف من تسرب مواد خطرة الجزيرة نت"
+   "summary_ar": "حين ينسى ترمب عُقدة الـ 444.. سيوقّع الصفقة مع إيران الجزيرة نت",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "مبابي يستعد لتحطيم إنجاز ميسي في دوري الأبطال",
@@ -1391,7 +1742,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T14:46:35+00:00",
    "title_ar": "مبابي يستعد لتحطيم إنجاز ميسي في دوري الأبطال",
-   "summary_ar": "مبابي يستعد لتحطيم إنجاز ميسي في دوري الأبطال Kooora"
+   "summary_ar": "مبابي يستعد لتحطيم إنجاز ميسي في دوري الأبطال Kooora",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "انقلاب مفاجئ \"بمعسكر مبابي\".. نجم ريال مدريد ينفصل عن محاميته بعد الانتصار على باريس",
@@ -1403,19 +1756,27 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T14:43:32+00:00",
    "title_ar": "انقلاب مفاجئ \"بمعسكر مبابي\".. نجم ريال مدريد ينفصل عن محاميته بعد الانتصار على باريس",
-   "summary_ar": "انقلاب مفاجئ \"بمعسكر مبابي\".. نجم ريال مدريد ينفصل عن محاميته بعد الانتصار على باريس Kooora"
+   "summary_ar": "انقلاب مفاجئ \"بمعسكر مبابي\".. نجم ريال مدريد ينفصل عن محاميته بعد الانتصار على باريس Kooora",
+   "title_en": null,
+   "countries": [
+    "إسبانيا"
+   ]
   },
   {
-   "title": "Kevin Pietersen tells ECB he will not promote gambling site while on England duty",
-   "summary": "",
-   "link": "https://www.theguardian.com/sport/2026/oct/14/kevin-pietersen-gambling-site-england-batting-coach-cricket",
-   "image": "https://i.guim.co.uk/img/media/aa38cbe71c085ca880c085291dfe46ced24fe02d/428_66_4351_3478/master/4351.jpg?width=140&quality=85&auto=format&fit=max&s=0a460181bb31e5a0be2d8281e2a974df",
-   "source": "The Guardian",
-   "lang": "en",
+   "title": "حجر غامض في أرض مواطن مصري يقود إلى أسرار رمسيس الثاني",
+   "summary": "حجر غامض في أرض مواطن مصري يقود إلى أسرار رمسيس الثاني الجزيرة نت",
+   "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNTHQySVNZTi00bGtiSjRfWTQ1NWt4YURyRTk3WHFSTU9HWW0xWk1MUEtFTlRXTmU5M1g4dWtPQ3B5OXBldkEwcldwTUhmeEhsR1Vhd1RtU2NRSnl0YnJLenh4c3l5WC1kVGNrazJtMHBpRDdEN1hPS3MxYk50M05QSXE2RW5vVjZYdWFudXQzX3VmemN3SnJpTWUtWFRhZG5aeWdYMzdLbi1BTUhhQ09tWENFcWVPemtGVDF2cE1LdnpQLW5JQk5hb0wtRURKRFl0dy1TZ3J1ekt4VkhKWWt2a3Uta0xxdkRHRFdnUDJ2a2JXZ3kzOG10Nmo1Y1poRWc1Sy05QnhXNUJybk9kbnY5aHoxYWNUSE8xUVVmV3VLZDJOZXZmcldUX1c3UVliLVVGME9PQlhDZWxhQWJyWkpjRy1QRDDSAcoCQVVfeXFMT0F6dTZNZXU0NnVXcjBENE1NWWhiSjN1eWQ4MmxXSVNTcHJWZ01WQVNmTUF1N0lLRWo3LTdfaGFHdlB5SVZGbTlsczBiRlFLUnFhYk1JSFBzSEtDQS1IOGRQa3FFQlA5bktWQWpvTC1wUEo2M2c2SU45d1JLYmpYMy0zalQyX0NiRnQ5V2VHaGpHcG50OWNwWDl1LW5GWHBZREhsb0dBelYtMEVuSVE2VmxsWWI5Zkc3MjIyeXNiOUViaEVCUlM0QmJwaGs0VXBDbl9uN2FnMlQwa3BhckJ1WFNiUl9oTkFPQUpocXVBelMyRS10TExOcUxObWRTTHE0RjFaN3lxbHVEbEU3U1NZbWxva1FaNEEybW04U0dpY3lYNThjaGpJNXlYN2VzTEtycGQ3eXJZRU1lSThibUptOHhRVDhTaTBpZUh3?oc=5",
+   "image": "",
+   "source": "الجزيرة",
+   "lang": "ar",
    "sport": "رياضات أخرى",
-   "published": "2026-10-14T14:35:53+00:00",
-   "title_ar": null,
-   "summary_ar": ""
+   "published": "2026-10-14T14:27:48+00:00",
+   "title_ar": "حجر غامض في أرض مواطن مصري يقود إلى أسرار رمسيس الثاني",
+   "summary_ar": "حجر غامض في أرض مواطن مصري يقود إلى أسرار رمسيس الثاني الجزيرة نت",
+   "title_en": null,
+   "countries": [
+    "مصر"
+   ]
   },
   {
    "title": "كييف: انقطاع الكهرباء وقيود ستارلينك ضربتان تربكان أوكرانيا على الجبهة",
@@ -1427,7 +1788,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T14:17:12+00:00",
    "title_ar": "كييف: انقطاع الكهرباء وقيود ستارلينك ضربتان تربكان أوكرانيا على الجبهة",
-   "summary_ar": "كييف: انقطاع الكهرباء وقيود ستارلينك ضربتان تربكان أوكرانيا على الجبهة BBC"
+   "summary_ar": "كييف: انقطاع الكهرباء وقيود ستارلينك ضربتان تربكان أوكرانيا على الجبهة BBC",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "صافرات غامضة بعد رباعية برشلونة.. ماذا حدث في ملعب غلطة سراي؟",
@@ -1439,7 +1802,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T13:55:39+00:00",
    "title_ar": "صافرات غامضة بعد رباعية برشلونة.. ماذا حدث في ملعب غلطة سراي؟",
-   "summary_ar": "صافرات غامضة بعد رباعية برشلونة.. ماذا حدث في ملعب غلطة سراي؟ الجزيرة نت"
+   "summary_ar": "صافرات غامضة بعد رباعية برشلونة.. ماذا حدث في ملعب غلطة سراي؟ الجزيرة نت",
+   "title_en": null,
+   "countries": [
+    "إسبانيا"
+   ]
   },
   {
    "title": "بالأصوات والمليارات.. كيف يحمي الفيفا عرش إنفانتينو؟",
@@ -1451,7 +1818,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T13:55:36+00:00",
    "title_ar": "بالأصوات والمليارات.. كيف يحمي الفيفا عرش إنفانتينو؟",
-   "summary_ar": "بالأصوات والمليارات.. كيف يحمي الفيفا عرش إنفانتينو؟ سكاي نيوز عربية"
+   "summary_ar": "بالأصوات والمليارات.. كيف يحمي الفيفا عرش إنفانتينو؟ سكاي نيوز عربية",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "لاعب فايكينج بعد واقعة الطرد: أوليسي أحمق!",
@@ -1463,7 +1832,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T13:46:48+00:00",
    "title_ar": "لاعب فايكينج بعد واقعة الطرد: أوليسي أحمق!",
-   "summary_ar": "لاعب فايكينج بعد واقعة الطرد: أوليسي أحمق! Kooora"
+   "summary_ar": "لاعب فايكينج بعد واقعة الطرد: أوليسي أحمق! Kooora",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "مقابلة خاصة مع وزير الخارجية المصري بدر عبد العاطي",
@@ -1475,7 +1846,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T13:13:57+00:00",
    "title_ar": "مقابلة خاصة مع وزير الخارجية المصري بدر عبد العاطي",
-   "summary_ar": "مقابلة خاصة مع وزير الخارجية المصري بدر عبد العاطي سكاي نيوز عربية"
+   "summary_ar": "مقابلة خاصة مع وزير الخارجية المصري بدر عبد العاطي سكاي نيوز عربية",
+   "title_en": null,
+   "countries": [
+    "مصر"
+   ]
   },
   {
    "title": "كلمة النهاية؟.. ليمينا يستعين بطفله للرد على سخرية يامال",
@@ -1487,7 +1862,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T12:54:31+00:00",
    "title_ar": "كلمة النهاية؟.. ليمينا يستعين بطفله للرد على سخرية يامال",
-   "summary_ar": "كلمة النهاية؟.. ليمينا يستعين بطفله للرد على سخرية يامال Kooora"
+   "summary_ar": "كلمة النهاية؟.. ليمينا يستعين بطفله للرد على سخرية يامال Kooora",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "رسميًا.. إعلان قرعة كأس السوبر السعودي",
@@ -1499,7 +1876,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T12:24:26+00:00",
    "title_ar": "رسميًا.. إعلان قرعة كأس السوبر السعودي",
-   "summary_ar": "رسميًا.. إعلان قرعة كأس السوبر السعودي Kooora"
+   "summary_ar": "رسميًا.. إعلان قرعة كأس السوبر السعودي Kooora",
+   "title_en": null,
+   "countries": [
+    "السعودية"
+   ]
   },
   {
    "title": "لياو: أتمنى فوز هذا اللاعب بالكرة الذهبية",
@@ -1511,7 +1892,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T12:24:22+00:00",
    "title_ar": "لياو: أتمنى فوز هذا اللاعب بالكرة الذهبية",
-   "summary_ar": "لياو: أتمنى فوز هذا اللاعب بالكرة الذهبية Kooora"
+   "summary_ar": "لياو: أتمنى فوز هذا اللاعب بالكرة الذهبية Kooora",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "NFL star Tyreek Hill’s estranged wife awarded $500,000 damages in battery trial",
@@ -1522,8 +1905,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-14T12:17:02+00:00",
+   "title_en": "NFL star Tyreek Hill’s estranged wife awarded $500,000 damages in battery trial",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Gianni Infantino faces grilling at potentially ‘explosive’ Fifa council meeting",
@@ -1534,8 +1919,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T11:30:28+00:00",
+   "title_en": "Gianni Infantino faces grilling at potentially ‘explosive’ Fifa council meeting",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "حظر الأسلحة الكيميائية: نعمل مع سوريا لتدمير الأسلحة المتبقي",
@@ -1547,7 +1934,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T11:16:50+00:00",
    "title_ar": "حظر الأسلحة الكيميائية: نعمل مع سوريا لتدمير الأسلحة المتبقي",
-   "summary_ar": "حظر الأسلحة الكيميائية: نعمل مع سوريا لتدمير الأسلحة المتبقي سكاي نيوز عربية"
+   "summary_ar": "حظر الأسلحة الكيميائية: نعمل مع سوريا لتدمير الأسلحة المتبقي سكاي نيوز عربية",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "الشيباني: ماضون في التخلص من أسلحة النظام السابق والألغام",
@@ -1559,7 +1948,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T11:15:52+00:00",
    "title_ar": "الشيباني: ماضون في التخلص من أسلحة النظام السابق والألغام",
-   "summary_ar": "الشيباني: ماضون في التخلص من أسلحة النظام السابق والألغام سكاي نيوز عربية"
+   "summary_ar": "الشيباني: ماضون في التخلص من أسلحة النظام السابق والألغام سكاي نيوز عربية",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "عودة تدريجية للسياحة في مدينة العريش المصرية بعد غياب لسنوات",
@@ -1571,7 +1962,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T11:07:27+00:00",
    "title_ar": "عودة تدريجية للسياحة في مدينة العريش المصرية بعد غياب لسنوات",
-   "summary_ar": "عودة تدريجية للسياحة في مدينة العريش المصرية بعد غياب لسنوات سكاي نيوز عربية"
+   "summary_ar": "عودة تدريجية للسياحة في مدينة العريش المصرية بعد غياب لسنوات سكاي نيوز عربية",
+   "title_en": null,
+   "countries": [
+    "مصر"
+   ]
   },
   {
    "title": "استطلاع: 66% من شيعة لبنان يؤيدون تسليم سلاح حزب الله",
@@ -1583,7 +1978,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T11:04:20+00:00",
    "title_ar": "استطلاع: 66% من شيعة لبنان يؤيدون تسليم سلاح حزب الله",
-   "summary_ar": "استطلاع: 66% من شيعة لبنان يؤيدون تسليم سلاح حزب الله سكاي نيوز عربية"
+   "summary_ar": "استطلاع: 66% من شيعة لبنان يؤيدون تسليم سلاح حزب الله سكاي نيوز عربية",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "ترامب: إيران لن تمتلك السلاح النووي والحرب معها ستنتهي قريبا",
@@ -1595,7 +1992,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T11:02:01+00:00",
    "title_ar": "ترامب: إيران لن تمتلك السلاح النووي والحرب معها ستنتهي قريبا",
-   "summary_ar": "ترامب: إيران لن تمتلك السلاح النووي والحرب معها ستنتهي قريبا سكاي نيوز عربية"
+   "summary_ar": "ترامب: إيران لن تمتلك السلاح النووي والحرب معها ستنتهي قريبا سكاي نيوز عربية",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "Sunderland hope to enjoy warmth in Portugal after 53 years away",
@@ -1606,20 +2005,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T11:00:00+00:00",
+   "title_en": "Sunderland hope to enjoy warmth in Portugal after 53 years away",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
-  },
-  {
-   "title": "سوريا.. وزارة الطاقة تكشف سبب أزمة \"البنزين المغشوش\" وتتعهد بتعويضات",
-   "summary": "سوريا.. وزارة الطاقة تكشف سبب أزمة \"البنزين المغشوش\" وتتعهد بتعويضات الجزيرة نت",
-   "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNaktpV05scTI0R1dJY0ZWeXBZUnVnOWlWNHc5NzhrS09jcjhvTzNIYmlGOTQ4RDhQZ2hWNWNNNS1FVWdES1h0Q2xWNmhiNVdDLXJDSGdDNHV3eUxIMmx4eG1GT2paamJIamwxaTdKQjJOenkyNlh0NThoclFyS29FbkZDa2YwaHhmTkFpQzBOUDc4V3Vqd1MwU2RhZnJIdk9SQWxObzhfcHdzdnlaQVJMeGo2VU4zZlA2VjBqNHlmOEw2WjFxOE5mVlFrQU0tT2gyeGZSZ2hNdHhFWlY1a3B1bFkyUWYwMnJFczNkSTRyekZvTDRHbjVHRzhLR0NaeXNjd0dWejFiQnF0eG9FcHRnWVBqWUFPOUZQd01JaUFOR2g0cnU4dkNxOEc1VEd1T2xSWnJF0gG4AkFVX3lxTE5KU0Z6SjU1N19zVzdXUi0tNFdwZUhZbS1oR1dFRFlyc0JwQW90dktQcEg3dzdLbGdWOVlxZlpuTXFKMXlET2FQZVdhWnR1aUlWenBfT0pEZFhXWlAzZnpwQ1hJU0VPdFVsWHpTUWJDTzN2aGI2YUw2SHJKNURoNVJ4NkFkc0JlWXlYQkJCWUI0TEJfZXlZb0dQc3dyVmJsXzFiSEFORGc2NkpkYV91SUIxWkN6NVFfNGJHTzJ6RTlNMmVnTjFhckw4YjB1SFJWVS1IZ09ENlZORWI2QW9OZVdFTDFDOGNMN1JZWmVtc3hKYm42WE5xTUxoZ09JZG9wbzVQc05VVF9wUjhtVnVHbThoSU5kTmpBM1FzNmt0eF9LSkVwLU1PSGp3TkNFRUFGTVF1WTd6bF91Yw?oc=5",
-   "image": "",
-   "source": "الجزيرة",
-   "lang": "ar",
-   "sport": "رياضات أخرى",
-   "published": "2026-10-14T10:44:43+00:00",
-   "title_ar": "سوريا.. وزارة الطاقة تكشف سبب أزمة \"البنزين المغشوش\" وتتعهد بتعويضات",
-   "summary_ar": "سوريا.. وزارة الطاقة تكشف سبب أزمة \"البنزين المغشوش\" وتتعهد بتعويضات الجزيرة نت"
+   "countries": []
   },
   {
    "title": "نعمان محمود.. أول أمين عام لحلف مكة الثلاثي",
@@ -1631,7 +2020,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T10:33:35+00:00",
    "title_ar": "نعمان محمود.. أول أمين عام لحلف مكة الثلاثي",
-   "summary_ar": "نعمان محمود.. أول أمين عام لحلف مكة الثلاثي الجزيرة نت"
+   "summary_ar": "نعمان محمود.. أول أمين عام لحلف مكة الثلاثي الجزيرة نت",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "NFL suspends Rams' Jackson for striking Bills' Chubb in face after game",
@@ -1642,8 +2033,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-14T10:30:00+00:00",
+   "title_en": "NFL suspends Rams' Jackson for striking Bills' Chubb in face after game",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Finding Renée Richards: the complicated past and present of a trans sports pioneer",
@@ -1654,8 +2047,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-14T10:00:02+00:00",
+   "title_en": "Finding Renée Richards: the complicated past and present of a trans sports pioneer",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "هالك تي في: الشرطة التركية تداهم مقر قناة المعارضة الرئيسية وتمنع البث وتفرض الوصاية عليها",
@@ -1667,7 +2062,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T09:25:38+00:00",
    "title_ar": "هالك تي في: الشرطة التركية تداهم مقر قناة المعارضة الرئيسية وتمنع البث وتفرض الوصاية عليها",
-   "summary_ar": "هالك تي في: الشرطة التركية تداهم مقر قناة المعارضة الرئيسية وتمنع البث وتفرض الوصاية عليها BBC"
+   "summary_ar": "هالك تي في: الشرطة التركية تداهم مقر قناة المعارضة الرئيسية وتمنع البث وتفرض الوصاية عليها BBC",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "طفلة وسط ألسنة اللهب.. مشهد يحبس الأنفاس يختصر أوجاع أطفال غزة",
@@ -1679,7 +2076,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T09:10:38+00:00",
    "title_ar": "طفلة وسط ألسنة اللهب.. مشهد يحبس الأنفاس يختصر أوجاع أطفال غزة",
-   "summary_ar": "طفلة وسط ألسنة اللهب.. مشهد يحبس الأنفاس يختصر أوجاع أطفال غزة الجزيرة نت"
+   "summary_ar": "طفلة وسط ألسنة اللهب.. مشهد يحبس الأنفاس يختصر أوجاع أطفال غزة الجزيرة نت",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "Netflix’s Mike Tyson docuseries offers an incomplete portrait of a troubling figure | Andrew Lawrence",
@@ -1690,8 +2089,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-14T09:00:50+00:00",
+   "title_en": "Netflix’s Mike Tyson docuseries offers an incomplete portrait of a troubling figure | Andrew Lawrence",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "الخرف: لماذا تتحمّل النساء عبئاً أكبر مع توقّع تضاعف عدد الإصابات بحلول 2050؟",
@@ -1703,7 +2104,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T08:03:41+00:00",
    "title_ar": "الخرف: لماذا تتحمّل النساء عبئاً أكبر مع توقّع تضاعف عدد الإصابات بحلول 2050؟",
-   "summary_ar": "الخرف: لماذا تتحمّل النساء عبئاً أكبر مع توقّع تضاعف عدد الإصابات بحلول 2050؟ BBC"
+   "summary_ar": "الخرف: لماذا تتحمّل النساء عبئاً أكبر مع توقّع تضاعف عدد الإصابات بحلول 2050؟ BBC",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "الخزانة الأميركية تغرم بنك أوف أميركا بـ 1.2 مليار دولار",
@@ -1715,7 +2118,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T07:43:56+00:00",
    "title_ar": "الخزانة الأميركية تغرم بنك أوف أميركا بـ 1.2 مليار دولار",
-   "summary_ar": "الخزانة الأميركية تغرم بنك أوف أميركا بـ 1.2 مليار دولار سكاي نيوز عربية"
+   "summary_ar": "الخزانة الأميركية تغرم بنك أوف أميركا بـ 1.2 مليار دولار سكاي نيوز عربية",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "مليارات الفيفا وصراع الرئاسة.. هل تحسم ميزانية التطوير معركة إنفانتينو المقبلة؟",
@@ -1727,7 +2132,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T07:24:25+00:00",
    "title_ar": "مليارات الفيفا وصراع الرئاسة.. هل تحسم ميزانية التطوير معركة إنفانتينو المقبلة؟",
-   "summary_ar": "مليارات الفيفا وصراع الرئاسة.. هل تحسم ميزانية التطوير معركة إنفانتينو المقبلة؟ الجزيرة نت"
+   "summary_ar": "مليارات الفيفا وصراع الرئاسة.. هل تحسم ميزانية التطوير معركة إنفانتينو المقبلة؟ الجزيرة نت",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "صفقة مدوية.. ريال مدريد يستعد للانقضاض على هالاند",
@@ -1739,7 +2146,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T07:20:03+00:00",
    "title_ar": "صفقة مدوية.. ريال مدريد يستعد للانقضاض على هالاند",
-   "summary_ar": "صفقة مدوية.. ريال مدريد يستعد للانقضاض على هالاند Kooora"
+   "summary_ar": "صفقة مدوية.. ريال مدريد يستعد للانقضاض على هالاند Kooora",
+   "title_en": null,
+   "countries": [
+    "إسبانيا"
+   ]
   },
   {
    "title": "Briton Kartal causes upset before Sabalenka loses again",
@@ -1750,8 +2161,10 @@
    "lang": "en",
    "sport": "التنس",
    "published": "2026-10-14T07:02:17+00:00",
+   "title_en": "Briton Kartal causes upset before Sabalenka loses again",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "إصابات وأضرار في السعودية، وغارات ونقص في الإمدادات في اليمن مع تصاعد القتال في المنطقة",
@@ -1763,7 +2176,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T06:50:09+00:00",
    "title_ar": "إصابات وأضرار في السعودية، وغارات ونقص في الإمدادات في اليمن مع تصاعد القتال في المنطقة",
-   "summary_ar": "إصابات وأضرار في السعودية، وغارات ونقص في الإمدادات في اليمن مع تصاعد القتال في المنطقة BBC"
+   "summary_ar": "إصابات وأضرار في السعودية، وغارات ونقص في الإمدادات في اليمن مع تصاعد القتال في المنطقة BBC",
+   "title_en": null,
+   "countries": [
+    "السعودية"
+   ]
   },
   {
    "title": "\"لعبة شطرنج\" في هرمز: إستراتيجية إيرانية جديدة لرفع أسعار النفط",
@@ -1775,7 +2192,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T05:54:31+00:00",
    "title_ar": "\"لعبة شطرنج\" في هرمز: إستراتيجية إيرانية جديدة لرفع أسعار النفط",
-   "summary_ar": "\"لعبة شطرنج\" في هرمز: إستراتيجية إيرانية جديدة لرفع أسعار النفط الجزيرة نت"
+   "summary_ar": "\"لعبة شطرنج\" في هرمز: إستراتيجية إيرانية جديدة لرفع أسعار النفط الجزيرة نت",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "اتهام سعودي بزرع جهاز تسجيل \"متطور\" في مكتب تابع لشركة \"أوبن إيه آي\"",
@@ -1787,7 +2206,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T04:57:20+00:00",
    "title_ar": "اتهام سعودي بزرع جهاز تسجيل \"متطور\" في مكتب تابع لشركة \"أوبن إيه آي\"",
-   "summary_ar": "اتهام سعودي بزرع جهاز تسجيل \"متطور\" في مكتب تابع لشركة \"أوبن إيه آي\" BBC"
+   "summary_ar": "اتهام سعودي بزرع جهاز تسجيل \"متطور\" في مكتب تابع لشركة \"أوبن إيه آي\" BBC",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "3 مفاجآت من الصين في قطاع التكنولوجيا",
@@ -1799,7 +2220,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T03:33:33+00:00",
    "title_ar": "3 مفاجآت من الصين في قطاع التكنولوجيا",
-   "summary_ar": "3 مفاجآت من الصين في قطاع التكنولوجيا سكاي نيوز عربية"
+   "summary_ar": "3 مفاجآت من الصين في قطاع التكنولوجيا سكاي نيوز عربية",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "Peralta shines as Rays seize on Ramírez error to level ALCS against Guardians",
@@ -1810,8 +2233,10 @@
    "lang": "en",
    "sport": "رياضات أخرى",
    "published": "2026-10-14T03:18:43+00:00",
+   "title_en": "Peralta shines as Rays seize on Ramírez error to level ALCS against Guardians",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "الرياض تسجل 4 إصابات وتضرر 15 منزلاً إثر ضربات صاروخية",
@@ -1823,7 +2248,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-14T00:39:09+00:00",
    "title_ar": "الرياض تسجل 4 إصابات وتضرر 15 منزلاً إثر ضربات صاروخية",
-   "summary_ar": "الرياض تسجل 4 إصابات وتضرر 15 منزلاً إثر ضربات صاروخية BBC"
+   "summary_ar": "الرياض تسجل 4 إصابات وتضرر 15 منزلاً إثر ضربات صاروخية BBC",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "بعد هزيمته أمام الوافد الجديد.. الصفاقسي التونسي يقيل مدربه",
@@ -1835,7 +2262,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T23:32:52+00:00",
    "title_ar": "بعد هزيمته أمام الوافد الجديد.. الصفاقسي التونسي يقيل مدربه",
-   "summary_ar": "بعد هزيمته أمام الوافد الجديد.. الصفاقسي التونسي يقيل مدربه سكاي نيوز عربية"
+   "summary_ar": "بعد هزيمته أمام الوافد الجديد.. الصفاقسي التونسي يقيل مدربه سكاي نيوز عربية",
+   "title_en": null,
+   "countries": [
+    "تونس"
+   ]
   },
   {
    "title": "%94 من الأندية تسجل خسائر.. تقرير رسمي يحذر من أزمة مالية تهدد الكرة الإنجليزية",
@@ -1847,7 +2278,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T23:28:01+00:00",
    "title_ar": "%94 من الأندية تسجل خسائر.. تقرير رسمي يحذر من أزمة مالية تهدد الكرة الإنجليزية",
-   "summary_ar": "%94 من الأندية تسجل خسائر.. تقرير رسمي يحذر من أزمة مالية تهدد الكرة الإنجليزية الجزيرة نت"
+   "summary_ar": "%94 من الأندية تسجل خسائر.. تقرير رسمي يحذر من أزمة مالية تهدد الكرة الإنجليزية الجزيرة نت",
+   "title_en": null,
+   "countries": [
+    "إنجلترا"
+   ]
   },
   {
    "title": "Potter helps England find magic but World Cup playoff format needs rethink | Tom Garry",
@@ -1858,8 +2293,12 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-13T22:14:28+00:00",
+   "title_en": "Potter helps England find magic but World Cup playoff format needs rethink | Tom Garry",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": [
+    "إنجلترا"
+   ]
   },
   {
    "title": "Champions League roundup: Tresoldi treble stuns Inter in Club Brugge win",
@@ -1870,8 +2309,12 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-13T22:07:38+00:00",
+   "title_en": "Champions League roundup: Tresoldi treble stuns Inter in Club Brugge win",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": [
+    "إسبانيا"
+   ]
   },
   {
    "title": "رقم غير مسبوق.. إنتر يكتب صفحة سوداء في تاريخه الأوروبي",
@@ -1883,7 +2326,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T22:04:34+00:00",
    "title_ar": "رقم غير مسبوق.. إنتر يكتب صفحة سوداء في تاريخه الأوروبي",
-   "summary_ar": "رقم غير مسبوق.. إنتر يكتب صفحة سوداء في تاريخه الأوروبي Kooora"
+   "summary_ar": "رقم غير مسبوق.. إنتر يكتب صفحة سوداء في تاريخه الأوروبي Kooora",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "\"اجعلوهم يعانون\".. جيرارد يطالب بعقوبة تاريخية لمانشستر سيتي",
@@ -1895,7 +2340,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T21:34:51+00:00",
    "title_ar": "\"اجعلوهم يعانون\".. جيرارد يطالب بعقوبة تاريخية لمانشستر سيتي",
-   "summary_ar": "\"اجعلوهم يعانون\".. جيرارد يطالب بعقوبة تاريخية لمانشستر سيتي الجزيرة نت"
+   "summary_ar": "\"اجعلوهم يعانون\".. جيرارد يطالب بعقوبة تاريخية لمانشستر سيتي الجزيرة نت",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "الفاتيكان يؤكد إصابة البابا لاون بسرطان الرئة بعد عملية جراحية",
@@ -1907,7 +2354,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T21:26:09+00:00",
    "title_ar": "الفاتيكان يؤكد إصابة البابا لاون بسرطان الرئة بعد عملية جراحية",
-   "summary_ar": "الفاتيكان يؤكد إصابة البابا لاون بسرطان الرئة بعد عملية جراحية BBC"
+   "summary_ar": "الفاتيكان يؤكد إصابة البابا لاون بسرطان الرئة بعد عملية جراحية BBC",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "الداخلية السورية: مقتل 4 عناصر أمن إثر استهداف دوريتين بحماة",
@@ -1919,7 +2368,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T21:23:38+00:00",
    "title_ar": "الداخلية السورية: مقتل 4 عناصر أمن إثر استهداف دوريتين بحماة",
-   "summary_ar": "الداخلية السورية: مقتل 4 عناصر أمن إثر استهداف دوريتين بحماة سكاي نيوز عربية"
+   "summary_ar": "الداخلية السورية: مقتل 4 عناصر أمن إثر استهداف دوريتين بحماة سكاي نيوز عربية",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "Timber’s touch of class and supersub Saka secure Arsenal win against Lille",
@@ -1930,8 +2381,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-13T21:02:51+00:00",
+   "title_en": "Timber’s touch of class and supersub Saka secure Arsenal win against Lille",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "جدول مباريات اليوم الأربعاء 14 أكتوبر 2026 .. القنوات الناقلة والمعلقين",
@@ -1943,7 +2396,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T20:59:49+00:00",
    "title_ar": "جدول مباريات اليوم الأربعاء 14 أكتوبر 2026 .. القنوات الناقلة والمعلقين",
-   "summary_ar": "جدول مباريات اليوم الأربعاء 14 أكتوبر 2026 .. القنوات الناقلة والمعلقين Kooora"
+   "summary_ar": "جدول مباريات اليوم الأربعاء 14 أكتوبر 2026 .. القنوات الناقلة والمعلقين Kooora",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "ما أثر الحروب والنزاعات على الصحة النفسية للأفراد في الدول العربية؟",
@@ -1955,7 +2410,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T20:48:13+00:00",
    "title_ar": "ما أثر الحروب والنزاعات على الصحة النفسية للأفراد في الدول العربية؟",
-   "summary_ar": "ما أثر الحروب والنزاعات على الصحة النفسية للأفراد في الدول العربية؟ BBC"
+   "summary_ar": "ما أثر الحروب والنزاعات على الصحة النفسية للأفراد في الدول العربية؟ BBC",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "السعودية تعلن اعتراض صواريخ ومسيرات وسقوط شظايا بالظهران",
@@ -1967,7 +2424,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T19:12:20+00:00",
    "title_ar": "السعودية تعلن اعتراض صواريخ ومسيرات وسقوط شظايا بالظهران",
-   "summary_ar": "السعودية تعلن اعتراض صواريخ ومسيرات وسقوط شظايا بالظهران سكاي نيوز عربية"
+   "summary_ar": "السعودية تعلن اعتراض صواريخ ومسيرات وسقوط شظايا بالظهران سكاي نيوز عربية",
+   "title_en": null,
+   "countries": [
+    "السعودية"
+   ]
   },
   {
    "title": "لماذا استبعد فيسينج لاعب الاتحاد من قمة شباب الأهلي؟",
@@ -1979,7 +2440,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T18:43:08+00:00",
    "title_ar": "لماذا استبعد فيسينج لاعب الاتحاد من قمة شباب الأهلي؟",
-   "summary_ar": "لماذا استبعد فيسينج لاعب الاتحاد من قمة شباب الأهلي؟ Kooora"
+   "summary_ar": "لماذا استبعد فيسينج لاعب الاتحاد من قمة شباب الأهلي؟ Kooora",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "قطرات دم تكشف أسرار الجسد.. لماذا يضع لاعبو بايرن ميونخ ضمادات على آذانهم؟",
@@ -1991,7 +2454,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T17:45:37+00:00",
    "title_ar": "قطرات دم تكشف أسرار الجسد.. لماذا يضع لاعبو بايرن ميونخ ضمادات على آذانهم؟",
-   "summary_ar": "قطرات دم تكشف أسرار الجسد.. لماذا يضع لاعبو بايرن ميونخ ضمادات على آذانهم؟ الجزيرة نت"
+   "summary_ar": "قطرات دم تكشف أسرار الجسد.. لماذا يضع لاعبو بايرن ميونخ ضمادات على آذانهم؟ الجزيرة نت",
+   "title_en": null,
+   "countries": [
+    "قطر"
+   ]
   },
   {
    "title": "اتهامات للجيش المصري بقصف \"دهابة\" سودانيين في منطقة حدودية",
@@ -2003,7 +2470,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T17:36:36+00:00",
    "title_ar": "اتهامات للجيش المصري بقصف \"دهابة\" سودانيين في منطقة حدودية",
-   "summary_ar": "اتهامات للجيش المصري بقصف \"دهابة\" سودانيين في منطقة حدودية BBC"
+   "summary_ar": "اتهامات للجيش المصري بقصف \"دهابة\" سودانيين في منطقة حدودية BBC",
+   "title_en": null,
+   "countries": [
+    "مصر"
+   ]
   },
   {
    "title": "طالبات يودعن مدارسهن بالدموع بعد منع ارتداء الحجاب في المؤسسات التعليمية بأذربيجان",
@@ -2015,7 +2486,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T17:16:24+00:00",
    "title_ar": "طالبات يودعن مدارسهن بالدموع بعد منع ارتداء الحجاب في المؤسسات التعليمية بأذربيجان",
-   "summary_ar": "طالبات يودعن مدارسهن بالدموع بعد منع ارتداء الحجاب في المؤسسات التعليمية بأذربيجان BBC"
+   "summary_ar": "طالبات يودعن مدارسهن بالدموع بعد منع ارتداء الحجاب في المؤسسات التعليمية بأذربيجان BBC",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "كلمة لرئيس المجلس الانتقالي الجنوبي عيدروس الزبيدي",
@@ -2027,7 +2500,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T16:58:55+00:00",
    "title_ar": "كلمة لرئيس المجلس الانتقالي الجنوبي عيدروس الزبيدي",
-   "summary_ar": "كلمة لرئيس المجلس الانتقالي الجنوبي عيدروس الزبيدي سكاي نيوز عربية"
+   "summary_ar": "كلمة لرئيس المجلس الانتقالي الجنوبي عيدروس الزبيدي سكاي نيوز عربية",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "مدير مدرسة مصرية يبهر الطلاب باستعراض كاراتيه في طابور الصباح",
@@ -2039,7 +2514,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T16:51:19+00:00",
    "title_ar": "مدير مدرسة مصرية يبهر الطلاب باستعراض كاراتيه في طابور الصباح",
-   "summary_ar": "مدير مدرسة مصرية يبهر الطلاب باستعراض كاراتيه في طابور الصباح BBC"
+   "summary_ar": "مدير مدرسة مصرية يبهر الطلاب باستعراض كاراتيه في طابور الصباح BBC",
+   "title_en": null,
+   "countries": [
+    "مصر"
+   ]
   },
   {
    "title": "Boulter beaten by Shnaider in Wuhan",
@@ -2050,8 +2529,10 @@
    "lang": "en",
    "sport": "التنس",
    "published": "2026-10-13T16:34:03+00:00",
+   "title_en": "Boulter beaten by Shnaider in Wuhan",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Patrice Motsepe’s Caf presidency under pressure after Afcon U-turn as Eto’o waits in wings",
@@ -2062,8 +2543,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-13T16:12:47+00:00",
+   "title_en": "Patrice Motsepe’s Caf presidency under pressure after Afcon U-turn as Eto’o waits in wings",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Football regulator chair insists he will resign if politically pressured over Manchester City",
@@ -2074,8 +2557,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-13T16:00:18+00:00",
+   "title_en": "Football regulator chair insists he will resign if politically pressured over Manchester City",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "A 'landmark' moment - why has Rwanda been chosen to host F1?",
@@ -2086,8 +2571,12 @@
    "lang": "en",
    "sport": "سباقات",
    "published": "2026-10-13T15:01:17+00:00",
+   "title_en": "A 'landmark' moment - why has Rwanda been chosen to host F1?",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": [
+    "المغرب"
+   ]
   },
   {
    "title": "أمطار غزيرة تشل الحركة في طرابلس الليبية",
@@ -2099,7 +2588,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T14:59:43+00:00",
    "title_ar": "أمطار غزيرة تشل الحركة في طرابلس الليبية",
-   "summary_ar": "أمطار غزيرة تشل الحركة في طرابلس الليبية سكاي نيوز عربية"
+   "summary_ar": "أمطار غزيرة تشل الحركة في طرابلس الليبية سكاي نيوز عربية",
+   "title_en": null,
+   "countries": [
+    "ليبيا"
+   ]
   },
   {
    "title": "What are 'papaya rules' in Formula 1?",
@@ -2110,8 +2603,10 @@
    "lang": "en",
    "sport": "سباقات",
    "published": "2026-10-13T14:28:10+00:00",
+   "title_en": "What are 'papaya rules' in Formula 1?",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Rwanda to host F1's first race in Africa since 1993",
@@ -2122,8 +2617,10 @@
    "lang": "en",
    "sport": "سباقات",
    "published": "2026-10-13T13:21:02+00:00",
+   "title_en": "Rwanda to host F1's first race in Africa since 1993",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "شبكات الظل الإيرانية.. أذرع سرية عابرة للحدود",
@@ -2135,7 +2632,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T13:12:22+00:00",
    "title_ar": "شبكات الظل الإيرانية.. أذرع سرية عابرة للحدود",
-   "summary_ar": "شبكات الظل الإيرانية.. أذرع سرية عابرة للحدود سكاي نيوز عربية"
+   "summary_ar": "شبكات الظل الإيرانية.. أذرع سرية عابرة للحدود سكاي نيوز عربية",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "Man City latest: Guardiola returns but Maresca says: 'I didn't see him!'",
@@ -2146,8 +2645,10 @@
    "lang": "en",
    "sport": "كرة القدم",
    "published": "2026-10-13T13:00:00+00:00",
+   "title_en": "Man City latest: Guardiola returns but Maresca says: 'I didn't see him!'",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "موعد مباراة روما ضد ريال مدريد في دوري أبطال أوروبا والقنوات الناقلة",
@@ -2159,7 +2660,11 @@
    "sport": "كرة القدم",
    "published": "2026-10-13T12:49:38+00:00",
    "title_ar": "موعد مباراة روما ضد ريال مدريد في دوري أبطال أوروبا والقنوات الناقلة",
-   "summary_ar": "موعد مباراة روما ضد ريال مدريد في دوري أبطال أوروبا والقنوات الناقلة الجزيرة نت"
+   "summary_ar": "موعد مباراة روما ضد ريال مدريد في دوري أبطال أوروبا والقنوات الناقلة الجزيرة نت",
+   "title_en": null,
+   "countries": [
+    "إسبانيا"
+   ]
   },
   {
    "title": "\"تريد اللعب للمغرب\".. فيديو يكشف استفزاز عبد الكبير أبقار لنجم برشلونة لامين جمال",
@@ -2171,7 +2676,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T12:17:21+00:00",
    "title_ar": "\"تريد اللعب للمغرب\".. فيديو يكشف استفزاز عبد الكبير أبقار لنجم برشلونة لامين جمال",
-   "summary_ar": "\"تريد اللعب للمغرب\".. فيديو يكشف استفزاز عبد الكبير أبقار لنجم برشلونة لامين جمال الجزيرة نت"
+   "summary_ar": "\"تريد اللعب للمغرب\".. فيديو يكشف استفزاز عبد الكبير أبقار لنجم برشلونة لامين جمال الجزيرة نت",
+   "title_en": null,
+   "countries": [
+    "إسبانيا"
+   ]
   },
   {
    "title": "دول الخليج تدخل حقبة جديدة من عدم الاستقرار - مقال في الغارديان",
@@ -2183,7 +2692,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T11:52:46+00:00",
    "title_ar": "دول الخليج تدخل حقبة جديدة من عدم الاستقرار - مقال في الغارديان",
-   "summary_ar": "دول الخليج تدخل حقبة جديدة من عدم الاستقرار - مقال في الغارديان BBC"
+   "summary_ar": "دول الخليج تدخل حقبة جديدة من عدم الاستقرار - مقال في الغارديان BBC",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "محمد بن زايد يتلقى اتصالا هاتفيا من بوتين",
@@ -2195,7 +2706,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T11:44:47+00:00",
    "title_ar": "محمد بن زايد يتلقى اتصالا هاتفيا من بوتين",
-   "summary_ar": "محمد بن زايد يتلقى اتصالا هاتفيا من بوتين سكاي نيوز عربية"
+   "summary_ar": "محمد بن زايد يتلقى اتصالا هاتفيا من بوتين سكاي نيوز عربية",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "إصابة مراسل سكاي نيوز عربية في رام الله بقنبلة إسرائيلية",
@@ -2207,7 +2720,9 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T11:10:31+00:00",
    "title_ar": "إصابة مراسل سكاي نيوز عربية في رام الله بقنبلة إسرائيلية",
-   "summary_ar": "إصابة مراسل سكاي نيوز عربية في رام الله بقنبلة إسرائيلية سكاي نيوز عربية"
+   "summary_ar": "إصابة مراسل سكاي نيوز عربية في رام الله بقنبلة إسرائيلية سكاي نيوز عربية",
+   "title_en": null,
+   "countries": []
   },
   {
    "title": "نجم فرنسا السابق ينتقد \"أنانية\" مبابي في سباق الكرة الذهبية",
@@ -2219,7 +2734,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T11:08:27+00:00",
    "title_ar": "نجم فرنسا السابق ينتقد \"أنانية\" مبابي في سباق الكرة الذهبية",
-   "summary_ar": "نجم فرنسا السابق ينتقد \"أنانية\" مبابي في سباق الكرة الذهبية الجزيرة نت"
+   "summary_ar": "نجم فرنسا السابق ينتقد \"أنانية\" مبابي في سباق الكرة الذهبية الجزيرة نت",
+   "title_en": null,
+   "countries": [
+    "فرنسا"
+   ]
   },
   {
    "title": "بعد الإعلان عن الأغلبية الحكومية، ماذا ينتظر المنصوري لتشكيل أول حكومة ترأسها امرأة في المغرب؟",
@@ -2231,7 +2750,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T10:35:27+00:00",
    "title_ar": "بعد الإعلان عن الأغلبية الحكومية، ماذا ينتظر المنصوري لتشكيل أول حكومة ترأسها امرأة في المغرب؟",
-   "summary_ar": "بعد الإعلان عن الأغلبية الحكومية، ماذا ينتظر المنصوري لتشكيل أول حكومة ترأسها امرأة في المغرب؟ BBC"
+   "summary_ar": "بعد الإعلان عن الأغلبية الحكومية، ماذا ينتظر المنصوري لتشكيل أول حكومة ترأسها امرأة في المغرب؟ BBC",
+   "title_en": null,
+   "countries": [
+    "المغرب"
+   ]
   },
   {
    "title": "شاكيرا تثير الجدل بعلاقة محتملة مع نجم ريال مدريد السابق",
@@ -2243,19 +2766,11 @@
    "sport": "رياضات أخرى",
    "published": "2026-10-13T09:46:49+00:00",
    "title_ar": "شاكيرا تثير الجدل بعلاقة محتملة مع نجم ريال مدريد السابق",
-   "summary_ar": "شاكيرا تثير الجدل بعلاقة محتملة مع نجم ريال مدريد السابق Kooora"
-  },
-  {
-   "title": "دون جري أو مشي.. تمرين غير تقليدي قد يخفض ضغط الدم",
-   "summary": "دون جري أو مشي.. تمرين غير تقليدي قد يخفض ضغط الدم سكاي نيوز عربية",
-   "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOTWRDUVNUSTFSNHJQY2RWU1VDdjBGMERQb2pMRGw2ei1qcWRZR0FJamw0Y0NNbjF6OFNZMjZwd1RxR05LZnVMcnZodzNaWHVmbjFYd1pJTkpTaFZ3c2RUdXZFZVZpSWt0alFfZEdvV2NzT1dpMEphQkxKVkVacEd5MFViUTBrdmNKenhSeWZBXzdrWG1HQWU1RlF6M1hmNUxkSEQ3V1R4emhtR3Y0QzEyN0R5emVEQ0RTMTdoeTNPSGc5Qlc4UktCem9DVGNPM1NLQTJYV3lHVmw5aG9hTkt3Szd2U0pfQzRWQ2Q1R0kxUkFKczBLc1hTZExMa0VBSWtnYm9JbkdzUTR4RFZYVzhxc1BwZjgzTS1rbi1nVDExcHFxNEFKRzRVclRqM3YxQVVGVTNSVlpaamhmTUNiWkJDVnJjQjdzWDJGbjdz0gHLAkFVX3lxTE5NZENRU1RJMVI0clBjZFZTVUN2MEYwRFBvakxEbDZ6LWpxZFlHQUlqbDRjQ01uMXo4U1kyNnB3VHFHTktmdUxydmh3M1pYdWZuMVh3WklOSlNoVndzZFR1dkVlVmlJa3RqUV9kR29XY3NPV2kwSmFCTEpWRVpwR3kwVWJRMGt2Y0p6eFJ5ZkFfN2tYbUdBZTVGUXozWGY1TGRIRDdXVHh6aG1HdjRDMTI3RHl6ZURDRFMxN2h5M09IZzlCVzhSS0J6b0NUY08zU0tBMlhXeUdWbDlob2FOS3dLN3ZTSl9DNFZDZDVHSTFSQUpzMEtzWFNkTExrRUFJa2dib0luR3NRNHhEVlhXOHFzUHBmODNNLWtuLWdUMTFwcXE0QUpHNFVyVGozdjFBVUZVM1JWWlpqaGZNQ2JaQkNWcmNCN3NYMkZuN3M?oc=5",
-   "image": "",
-   "source": "سكاي نيوز عربية",
-   "lang": "ar",
-   "sport": "رياضات أخرى",
-   "published": "2026-10-13T08:09:36+00:00",
-   "title_ar": "دون جري أو مشي.. تمرين غير تقليدي قد يخفض ضغط الدم",
-   "summary_ar": "دون جري أو مشي.. تمرين غير تقليدي قد يخفض ضغط الدم سكاي نيوز عربية"
+   "summary_ar": "شاكيرا تثير الجدل بعلاقة محتملة مع نجم ريال مدريد السابق Kooora",
+   "title_en": null,
+   "countries": [
+    "إسبانيا"
+   ]
   },
   {
    "title": "Does Norris-Piastri crash show 'papaya rules' failing? - F1 Q&A",
@@ -2266,8 +2781,10 @@
    "lang": "en",
    "sport": "سباقات",
    "published": "2026-10-13T06:54:13+00:00",
+   "title_en": "Does Norris-Piastri crash show 'papaya rules' failing? - F1 Q&A",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   },
   {
    "title": "Zverev secures year-end number one ranking",
@@ -2278,8 +2795,10 @@
    "lang": "en",
    "sport": "التنس",
    "published": "2026-10-12T14:53:42+00:00",
+   "title_en": "Zverev secures year-end number one ranking",
+   "summary_ar": "",
    "title_ar": null,
-   "summary_ar": ""
+   "countries": []
   }
  ]
 }
