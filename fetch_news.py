@@ -4,7 +4,9 @@
 import html
 import json
 import re
+import socket
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -16,6 +18,9 @@ OUT = ROOT / "docs" / "news.json"
 MAX_AGE = timedelta(days=3)   # أقدم خبر يُحتفظ به
 MAX_ITEMS = 300
 SUMMARY_LEN = 200
+PER_FEED = 25            # أقصى عدد أخبار من كل مصدر
+WORKERS = 8              # ترجمة متوازية
+socket.setdefaulttimeout(20)  # مهلة لأي مصدر بطيء
 
 # ترتيب الفحص مهم: الرياضات المحددة أولاً ثم كرة القدم
 SPORTS = [
@@ -28,7 +33,6 @@ SPORTS = [
 ]
 OTHER = "رياضات أخرى"
 
-translator = GoogleTranslator(source="auto", target="ar")
 
 
 def classify(text: str) -> str:
@@ -51,11 +55,11 @@ def clean(text: str) -> str:
 def translate(text: str):
     if not text:
         return ""
-    for attempt in range(3):
+    for attempt in range(2):
         try:
-            return translator.translate(text) or None
+            return GoogleTranslator(source="auto", target="ar").translate(text) or None
         except Exception:
-            time.sleep(1.5 * (attempt + 1))
+            time.sleep(1 + attempt)
     return None  # يُعاد المحاولة في التشغيل القادم
 
 
@@ -99,9 +103,9 @@ def main():
     for src in sources:
         feed = feedparser.parse(src["url"])
         if not feed.entries:
-            print(f"تحذير: لا أخبار من {src['name']} ({src['url']})")
+            print(f"تحذير: لا أخبار من {src['name']} ({src['url']})", flush=True)
             continue
-        for e in feed.entries:
+        for e in feed.entries[:PER_FEED]:
             link, title = e.get("link"), clean(e.get("title"))
             if not link or not title:
                 continue
@@ -135,9 +139,14 @@ def main():
             elif old and old.get("title_ar"):
                 item["title_ar"], item["summary_ar"] = old["title_ar"], old.get("summary_ar", "")
             else:
-                item["title_ar"] = translate(title)
-                item["summary_ar"] = translate(summary) if item["title_ar"] else None
+                item["title_ar"], item["summary_ar"], item["summary"] = None, "", ""
             items.append(item)
+
+    todo = [i for i in items if i["title_ar"] is None and i["lang"] != "ar"]
+    print(f"جُمع {len(items)} خبر، وسيُترجم {len(todo)} عنوان", flush=True)
+    with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+        for i, t in zip(todo, pool.map(translate, [i["title"] for i in todo])):
+            i["title_ar"] = t
 
     if not items:
         print("لم يُجمع أي خبر؛ تُترك news.json القديمة كما هي.")
