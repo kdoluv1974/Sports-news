@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>صافرة — أخبار الرياضة</title>
+<title>بلا حدود — أخبار العالم</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Inter:wght@400;500;600&family=Noto+Kufi+Arabic:wght@600;800&display=swap" rel="stylesheet">
@@ -124,7 +124,7 @@ footer{background:var(--night);color:#8391AB;margin-top:3.5rem;padding:1.5rem 0;
 <body>
 <header class="top">
   <div class="wrap topin">
-    <div class="brandbox"><h1 class="brand"><span data-i18n="brand">صافرة</span><i>.</i></h1><p class="role" data-i18n="role"></p></div>
+    <div class="brandbox"><h1 class="brand"><span data-i18n="brand">بلا حدود</span><i>.</i></h1><p class="role" data-i18n="role"></p></div>
     <nav id="tabs" role="group"></nav>
     <div class="stamp" id="stamp"></div>
     <div id="langs" role="group" aria-label="Language / اللغة">
@@ -154,34 +154,39 @@ footer{background:var(--night);color:#8391AB;margin-top:3.5rem;padding:1.5rem 0;
 
 <script>
 const PAGE = 24;
-const COLORS = {'كرة القدم':'#0E9F6E','كرة السلة':'#F26B1D','التنس':'#7FA800','سباقات':'#D7263D','القتال':'#7B2CBF','رياضات أخرى':'#2F6FED'};
+const CAT_ORDER = ['سياسة','اقتصاد','رياضة','تقنية','علوم وصحة','ثقافة وفنون'];
+const COLORS = {'سياسة':'#C8102E','اقتصاد':'#0E9F6E','رياضة':'#F26B1D','تقنية':'#2F6FED','علوم وصحة':'#0A9DB0','ثقافة وفنون':'#8B3FD0'};
+const CAT_EN = {'سياسة':'Politics','اقتصاد':'Economy','رياضة':'Sports','تقنية':'Technology','علوم وصحة':'Science & Health','ثقافة وفنون':'Culture & Arts'};
 const SPORT_EN = {'كرة القدم':'Football','كرة السلة':'Basketball','التنس':'Tennis','سباقات':'Motorsport','القتال':'Combat sports','رياضات أخرى':'Other sports'};
 const T = {
-  ar: { dir:'rtl', locale:'ar-KW-u-nu-latn', title:'صافرة — أخبار الرياضة', brand:'صافرة',
-    role:'رئيس مجلس الإدارة: خالد محمد الشربيني', country:'الدولة', sport:'الرياضة', source:'المصدر',
+  ar: { dir:'rtl', locale:'ar-KW-u-nu-latn', title:'بلا حدود — أخبار العالم', brand:'بلا حدود',
+    role:'رئيس مجلس الإدارة: خالد محمد الشربيني', country:'الدولة', sport:'القسم', source:'المصدر',
     all:'الكل', allCountries:'كل الدول', allSources:'كل المصادر', search:'ابحث في العناوين',
     showOrig:'إظهار العنوان الأصلي', latest:'آخر الأخبار', more:'عرض المزيد', fresh:'جديد', updated:'آخر تحديث: ',
-    empty:'لا توجد أخبار مطابقة. جرّب تغيير الرياضة أو الدولة أو المصدر.',
+    empty:'لا توجد أخبار مطابقة. جرّب تغيير القسم أو الدولة أو المصدر.',
     error:'تعذّر تحميل الأخبار. افتح الصفحة عبر خادم (مثل GitHub Pages أو python -m http.server) وليس كملف مباشر.',
-    footer:'أخبار الرياضة من مصادر عربية وعالمية. العناوين غير العربية مترجمة آلياً وقد لا تكون دقيقة تماماً، وكل خبر يفتح في موقع مصدره.' },
-  en: { dir:'ltr', locale:'en', title:'Safra — Sports News', brand:'Safra',
-    role:'Chairman of the Board: Khaled Mohamed El-Sherbiny', country:'Country', sport:'Sport', source:'Source',
+    footer:'أخبار العالم من مصادر عربية وعالمية. العناوين المترجمة آلياً قد لا تكون دقيقة تماماً، وكل خبر يفتح في موقع مصدره.' },
+  en: { dir:'ltr', locale:'en', title:'Borderless — World News', brand:'Borderless',
+    role:'Chairman of the Board: Khaled Mohamed El-Sherbiny', country:'Country', sport:'Section', source:'Source',
     all:'All', allCountries:'All countries', allSources:'All sources', search:'Search headlines',
     showOrig:'Show original headline', latest:'Latest news', more:'Load more', fresh:'New', updated:'Updated ',
-    empty:'No matching news. Try a different sport, country or source.',
+    empty:'No matching news. Try a different section, country or source.',
     error:'Could not load the news. Open the page through a web server (such as GitHub Pages or python -m http.server), not as a local file.',
-    footer:'Sports news from Arab and international sources. Headlines not originally in English are machine-translated and may be imprecise. Each story opens on its source site.' }
+    footer:'World news from Arab and international sources. Machine-translated headlines may be imprecise. Each story opens on its source site.' }
 };
 
 let lang = 'ar';
 try { const s = localStorage.getItem('lang'); if (s === 'en' || s === 'ar') lang = s; } catch (e) {}
 
-const state = { items: [], countryNames: {}, updated: null, sport: 'الكل', country: 'الكل', source: '', q: '', orig: false, shown: PAGE };
+const state = { items: [], countryNames: {}, updated: null, cat: 'الكل', country: 'الكل', source: '', q: '', orig: false, shown: PAGE };
 const $ = id => document.getElementById(id);
 const t = k => T[lang][k];
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeUrl = u => /^https?:\/\//i.test(u) ? u : '';
-const col = s => COLORS[s] || '#2F6FED';
+const col = s => COLORS[s] || '#44566F';
+const catOf = i => i.category || 'رياضة';          // بيانات قديمة كانت للرياضة فقط
+const subOf = i => i.category ? (i.sub || '') : (i.sport || '');
+const catName = c => lang === 'ar' ? c : (CAT_EN[c] || c);
 const sname = s => lang === 'ar' ? s : (SPORT_EN[s] || s);
 const cname = c => lang === 'ar' ? c : (state.countryNames[c] || c);
 const ttl = i => lang === 'ar' ? (i.title_ar || i.title) : (i.title_en || i.title);
@@ -200,26 +205,26 @@ function rel(date) {
 
 function media(i) {
   const img = safeUrl(i.image);
-  return `<div class="media" style="--c:${col(i.sport)}"><span class="phn">${esc(sname(i.sport))}</span>${img ? `<img src="${esc(img)}" alt="" loading="lazy" onerror="this.remove()">` : ''}</div>`;
+  return `<div class="media" style="--c:${col(catOf(i))}"><span class="phn">${esc(catName(catOf(i)))}</span>${img ? `<img src="${esc(img)}" alt="" loading="lazy" onerror="this.remove()">` : ''}</div>`;
 }
 const meta = i => `<p class="meta"><span>${esc(i.source)}</span><span class="mt">${rel(new Date(i.published))}</span></p>`;
 const origLine = i => state.orig && i.lang !== lang ? `<p class="orig" dir="${i.lang === 'ar' ? 'rtl' : 'ltr'}">${esc(i.title)}</p>` : '';
 
 const tile = (i, cls) => `<a class="tile ${cls}" href="${esc(safeUrl(i.link))}" target="_blank" rel="noopener noreferrer">
   ${media(i)}<div class="shade"></div>
-  <div class="tx"><span class="chip" style="--c:${col(i.sport)}">${esc(sname(i.sport))}</span><h2>${esc(ttl(i))}</h2>${meta(i)}</div></a>`;
+  <div class="tx"><span class="chip" style="--c:${col(catOf(i))}">${esc(catName(catOf(i)))}</span><h2>${esc(ttl(i))}</h2>${meta(i)}</div></a>`;
 
 const card = i => {
   const fresh = Date.now() - new Date(i.published) < 3 * 36e5;
-  return `<a class="card" style="--c:${col(i.sport)}" href="${esc(safeUrl(i.link))}" target="_blank" rel="noopener noreferrer">
+  return `<a class="card" style="--c:${col(catOf(i))}" href="${esc(safeUrl(i.link))}" target="_blank" rel="noopener noreferrer">
   <div style="position:relative">${fresh ? `<span class="new">${esc(t('fresh'))}</span>` : ''}${media(i)}</div>
-  <div class="cb"><div class="tags"><span class="tag">${esc(sname(i.sport))}</span>${(i.countries || []).map(c => `<span class="cty">${esc(cname(c))}</span>`).join('')}</div><h3>${esc(ttl(i))}</h3>${origLine(i)}${meta(i)}</div></a>`;
+  <div class="cb"><div class="tags"><span class="tag">${esc(catName(catOf(i)))}</span>${subOf(i) ? `<span class="cty">${esc(sname(subOf(i)))}</span>` : ''}${(i.countries || []).map(c => `<span class="cty">${esc(cname(c))}</span>`).join('')}</div><h3>${esc(ttl(i))}</h3>${origLine(i)}${meta(i)}</div></a>`;
 };
 
 function filtered() {
   const q = state.q.trim().toLowerCase();
   return state.items.filter(i =>
-    (state.sport === 'الكل' || i.sport === state.sport) &&
+    (state.cat === 'الكل' || catOf(i) === state.cat) &&
     (state.country === 'الكل' || (i.countries || []).includes(state.country)) &&
     (!state.source || i.source === state.source) &&
     (!q || [i.title, i.title_ar, i.title_en].some(x => (x || '').toLowerCase().includes(q)))
@@ -228,10 +233,10 @@ function filtered() {
 
 function renderTabs() {
   const counts = {};
-  state.items.forEach(i => counts[i.sport] = (counts[i.sport] || 0) + 1);
-  const names = ['الكل', ...Object.keys(counts).sort((a, b) => counts[b] - counts[a])];
+  state.items.forEach(i => counts[catOf(i)] = (counts[catOf(i)] || 0) + 1);
+  const names = ['الكل', ...CAT_ORDER.filter(c => counts[c]), ...Object.keys(counts).filter(c => !CAT_ORDER.includes(c))];
   $('tabs').innerHTML = names.map(n =>
-    `<button type="button" data-s="${esc(n)}" style="--c:${n === 'الكل' ? '#fff' : col(n)}" aria-pressed="${n === state.sport}">${esc(n === 'الكل' ? t('all') : sname(n))}<small>${n === 'الكل' ? state.items.length : counts[n]}</small></button>`
+    `<button type="button" data-s="${esc(n)}" style="--c:${n === 'الكل' ? '#fff' : col(n)}" aria-pressed="${n === state.cat}">${esc(n === 'الكل' ? t('all') : catName(n))}<small>${n === 'الكل' ? state.items.length : counts[n]}</small></button>`
   ).join('');
 }
 
@@ -312,7 +317,7 @@ $('langs').addEventListener('click', e => {
 });
 $('tabs').addEventListener('click', e => {
   const b = e.target.closest('button'); if (!b) return;
-  state.sport = b.dataset.s; renderTabs(); reset();
+  state.cat = b.dataset.s; renderTabs(); reset();
 });
 $('chips').addEventListener('click', e => {
   const b = e.target.closest('button'); if (!b) return;
