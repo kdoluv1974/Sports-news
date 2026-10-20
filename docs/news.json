@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T03:23:38.650690+00:00",
+ "updated": "2026-10-20T06:24:21.319033+00:00",
  "country_names": {
   "مصر": "Egypt",
   "السعودية": "Saudi Arabia",
@@ -37,10 +37,338 @@
  },
  "items": [
   {
+   "title": "Are LeBron's Sixers actually good enough to win NBA title?",
+   "summary": "",
+   "link": "https://www.skysports.com/nba/news/12040/13599477/nba-lebron-james-philadelphia-76ers-face-vital-litmus-test-against-reigning-champion-new-york-knicks-on-opening-night",
+   "image": "https://e0.365dm.com/26/10/1920x1080/skysports-lebron-james-nba_7371793.jpg?20261009075418",
+   "source": "Sky Sports",
+   "lang": "en",
+   "category": "رياضة",
+   "sub": "كرة القدم",
+   "published": "2026-10-20T07:00:00+00:00",
+   "title_en": "Are LeBron's Sixers actually good enough to win NBA title?",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": []
+  },
+  {
+   "title": "Reese scores 30 points as Atlanta win at Golden State to level WNBA Finals",
+   "summary": "",
+   "link": "https://www.skysports.com/nba/news/12040/13601194/wnba-finals-angel-reese-scores-30-points-16-rebounds-as-atlanta-dream-win-at-golden-state-valkyries-to-level-best-of-seven-series-1-1",
+   "image": "https://e1.365dm.com/26/10/1920x1080/skysports-angel-reese-wnba_7381259.jpg?20261020064518",
+   "source": "Sky Sports",
+   "lang": "en",
+   "category": "رياضة",
+   "sub": "كرة القدم",
+   "published": "2026-10-20T06:29:00+00:00",
+   "title_en": "Reese scores 30 points as Atlanta win at Golden State to level WNBA Finals",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": []
+  },
+  {
+   "title": "England unchanged to face France after Tonga defeat",
+   "summary": "",
+   "link": "https://www.bbc.co.uk/sport/rugby-league/articles/cmd6d3gj2znxo?at_medium=RSS&at_campaign=rss",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a440/live/6f009710-cc47-11f1-9a39-31b474234113.jpg",
+   "source": "BBC Sport",
+   "lang": "en",
+   "category": "رياضة",
+   "sub": "رياضات أخرى",
+   "published": "2026-10-20T06:18:34+00:00",
+   "title_en": "England unchanged to face France after Tonga defeat",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": [
+    "إنجلترا",
+    "فرنسا"
+   ]
+  },
+  {
+   "title": "Chancellor rejects calls to raise Capital Gains Tax in Budget, sources say",
+   "summary": "",
+   "link": "https://www.bbc.co.uk/news/articles/c50me4w4x1vyo?at_medium=RSS&at_campaign=rss",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/95e7/live/6cd357a0-cc17-11f1-b7d0-7f346cefa9a9.jpg",
+   "source": "BBC News",
+   "lang": "en",
+   "category": "اقتصاد",
+   "sub": "",
+   "published": "2026-10-20T06:13:16+00:00",
+   "title_en": "Chancellor rejects calls to raise Capital Gains Tax in Budget, sources say",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": [
+    "بريطانيا"
+   ]
+  },
+  {
+   "title": "Stevenson 'granted' Zuffa release without fighting",
+   "summary": "",
+   "link": "https://www.bbc.co.uk/sport/boxing/articles/cm5ynv7ze0dxo?at_medium=RSS&at_campaign=rss",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c711/live/391bfb10-cc49-11f1-9a30-cb277859b43a.jpg",
+   "source": "BBC Sport",
+   "lang": "en",
+   "category": "رياضة",
+   "sub": "القتال",
+   "published": "2026-10-20T06:04:15+00:00",
+   "title_en": "Stevenson 'granted' Zuffa release without fighting",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": []
+  },
+  {
+   "title": "'He still has magic in his boots' - Maddison shows Spurs what they were missing",
+   "summary": "",
+   "link": "https://www.skysports.com/football/news/12040/13601183/james-maddison-marks-first-tottenham-start-in-nearly-18-months-with-stunning-goal-in-first-premier-league-win-of-season",
+   "image": "https://e0.365dm.com/26/10/1920x1080/skysports-james-maddison-tottenham_7381256.jpg?20261020063515",
+   "source": "Sky Sports",
+   "lang": "en",
+   "category": "رياضة",
+   "sub": "كرة القدم",
+   "published": "2026-10-20T06:01:00+00:00",
+   "title_en": "'He still has magic in his boots' - Maddison shows Spurs what they were missing",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": [
+    "إنجلترا"
+   ]
+  },
+  {
+   "title": "Hollywood AI-listers: is the technology ready to rival flesh-and-blood film stars?",
+   "summary": "",
+   "link": "https://www.theguardian.com/film/2026/oct/20/ai-actors-val-kilmer-as-deep-as-the-grave-tilly-norwood",
+   "image": "https://i.guim.co.uk/img/media/69f15733860f5f7d23d5d775e35e0d3d293c3a18/187_0_906_725/master/906.jpg?width=140&quality=85&auto=format&fit=max&s=0b907620412ffbebb86f933c5971d7dd",
+   "source": "The Guardian",
+   "lang": "en",
+   "category": "تقنية",
+   "sub": "",
+   "published": "2026-10-20T06:00:18+00:00",
+   "title_en": "Hollywood AI-listers: is the technology ready to rival flesh-and-blood film stars?",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": []
+  },
+  {
+   "title": "Purdy makes NFL history as 49ers beat Commanders to stay perfect",
+   "summary": "",
+   "link": "https://www.skysports.com/nfl/news/12040/13601181/san-francisco-49ers-beat-washington-commanders-to-stay-unbeaten-as-brock-purdy-becomes-highest-rated-passer-in-nfl-history",
+   "image": "https://e0.365dm.com/26/10/1920x1080/skysports-brock-purdy-san-francisco-49ers_7381237.jpg?20261020061506",
+   "source": "Sky Sports",
+   "lang": "en",
+   "category": "رياضة",
+   "sub": "كرة القدم",
+   "published": "2026-10-20T06:00:00+00:00",
+   "title_en": "Purdy makes NFL history as 49ers beat Commanders to stay perfect",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": []
+  },
+  {
+   "title": "Alberta voters reject plan for referendum to leave Canada, CBC projects",
+   "summary": "",
+   "link": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum",
+   "image": "https://i.guim.co.uk/img/media/6585f11300e7b962eb4456637c4e063b6ea81148/625_0_3345_2678/master/3345.jpg?width=140&quality=85&auto=format&fit=max&s=d6968c00b2628b98d4d23f8f561562af",
+   "source": "The Guardian",
+   "lang": "en",
+   "category": "سياسة",
+   "sub": "",
+   "published": "2026-10-20T05:50:03+00:00",
+   "title_en": "Alberta voters reject plan for referendum to leave Canada, CBC projects",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": []
+  },
+  {
+   "title": "Race, illness, injury, repeat - REDs and why men are suffering in silence",
+   "summary": "",
+   "link": "https://www.bbc.co.uk/sport/articles/ck054n5nqlv5o?at_medium=RSS&at_campaign=rss",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8eee/live/9ed65800-c975-11f1-80fc-ab418b149008.jpg",
+   "source": "BBC Sport",
+   "lang": "en",
+   "category": "رياضة",
+   "sub": "رياضات أخرى",
+   "published": "2026-10-20T05:45:34+00:00",
+   "title_en": "Race, illness, injury, repeat - REDs and why men are suffering in silence",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": [
+    "بريطانيا"
+   ]
+  },
+  {
+   "title": "The British island where red squirrels are thriving",
+   "summary": "",
+   "link": "https://www.bbc.co.uk/news/articles/cw1m4e3mrljxo?at_medium=RSS&at_campaign=rss",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ebff/live/6e1cd920-cbcb-11f1-aba9-2bb2608f11d9.jpg",
+   "source": "BBC News",
+   "lang": "en",
+   "category": "علوم وصحة",
+   "sub": "",
+   "published": "2026-10-20T05:38:30+00:00",
+   "title_en": "The British island where red squirrels are thriving",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": [
+    "بريطانيا"
+   ]
+  },
+  {
+   "title": "Helen Haines live updates: Helen Haines loses a leg and surgeons fight to save the other after alleged attack outside electorate office",
+   "summary": "",
+   "link": "https://www.theguardian.com/australia-news/live/2026/oct/20/helen-haines-independent-mp-alleged-car-attack-wangaratta-melbourne-hospital-ntwnfb",
+   "image": "https://i.guim.co.uk/img/media/e095e9628412d9e77ce67e0af0ba05d71fc9eca9/464_0_5541_4435/master/5541.jpg?width=140&quality=85&auto=format&fit=max&s=69529824615a902110cb6a40346a52d3",
+   "source": "The Guardian",
+   "lang": "en",
+   "category": "سياسة",
+   "sub": "",
+   "published": "2026-10-20T05:35:35+00:00",
+   "title_en": "Helen Haines live updates: Helen Haines loses a leg and surgeons fight to save the other after alleged attack outside electorate office",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": []
+  },
+  {
+   "title": "Who am I? Plus today's other quizzes",
+   "summary": "",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cm4g1er9vdvyo?at_medium=RSS&at_campaign=rss",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1fbf/live/38bd3c70-bda7-11f1-bc2e-018d645d8d21.png",
+   "source": "BBC Sport",
+   "lang": "en",
+   "category": "رياضة",
+   "sub": "كرة القدم",
+   "published": "2026-10-20T05:32:59+00:00",
+   "title_en": "Who am I? Plus today's other quizzes",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": []
+  },
+  {
+   "title": "Northern Ireland needs 'courage and leadership' to tackle climate change",
+   "summary": "",
+   "link": "https://www.bbc.co.uk/news/articles/cxzd6j5q0g7eo?at_medium=RSS&at_campaign=rss",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/76f3/live/165a2440-b877-11ef-a72c-55cc49f950c5.jpg",
+   "source": "BBC News",
+   "lang": "en",
+   "category": "علوم وصحة",
+   "sub": "",
+   "published": "2026-10-20T05:27:15+00:00",
+   "title_en": "Northern Ireland needs 'courage and leadership' to tackle climate change",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": []
+  },
+  {
+   "title": "POV: Your girls' PE lesson gets a glow up",
+   "summary": "",
+   "link": "https://www.bbc.co.uk/news/videos/cq4g1kz7l4d3o?at_medium=RSS&at_campaign=rss",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6e5/live/080df960-cbc7-11f1-a64c-550be9e3c66b.jpg",
+   "source": "BBC News",
+   "lang": "en",
+   "category": "علوم وصحة",
+   "sub": "",
+   "published": "2026-10-20T05:16:25+00:00",
+   "title_en": "POV: Your girls' PE lesson gets a glow up",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": []
+  },
+  {
+   "title": "'I started ketamine at 14 and needed nappies at 22' - the rise of young people going to rehab",
+   "summary": "",
+   "link": "https://www.bbc.co.uk/news/articles/c6ev30xwy8v2o?at_medium=RSS&at_campaign=rss",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0ee7/live/6a68cca0-c96c-11f1-a6e6-417671ef62cb.jpg",
+   "source": "BBC News",
+   "lang": "en",
+   "category": "علوم وصحة",
+   "sub": "",
+   "published": "2026-10-20T05:13:05+00:00",
+   "title_en": "'I started ketamine at 14 and needed nappies at 22' - the rise of young people going to rehab",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": []
+  },
+  {
+   "title": "How is the US economy really doing under President Trump?",
+   "summary": "",
+   "link": "https://www.bbc.co.uk/news/articles/cv98ze40jz18o?at_medium=RSS&at_campaign=rss",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/711c/live/8e797e10-cbd7-11f1-a64c-550be9e3c66b.jpg",
+   "source": "BBC News",
+   "lang": "en",
+   "category": "سياسة",
+   "sub": "",
+   "published": "2026-10-20T05:00:45+00:00",
+   "title_en": "How is the US economy really doing under President Trump?",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": []
+  },
+  {
+   "title": "Football Australia chair Anter Isaac dismisses recent Fifa ructions as ‘growing pains’",
+   "summary": "",
+   "link": "https://www.theguardian.com/sport/2026/oct/20/football-australia-chair-anter-isaac-dismisses-recent-fifa-complaints",
+   "image": "https://i.guim.co.uk/img/media/3deae4b96f96bb626bdb753000ddb7171a54c47d/171_0_1706_1365/master/1706.jpg?width=140&quality=85&auto=format&fit=max&s=398046152542bfff7d097e5befcd0c71",
+   "source": "The Guardian",
+   "lang": "en",
+   "category": "رياضة",
+   "sub": "كرة القدم",
+   "published": "2026-10-20T04:40:49+00:00",
+   "title_en": "Football Australia chair Anter Isaac dismisses recent Fifa ructions as ‘growing pains’",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": []
+  },
+  {
+   "title": "Mother of alleged Alan Jones victim ‘absolutely trusted’ the radio host, court told",
+   "summary": "",
+   "link": "https://www.theguardian.com/australia-news/2026/oct/20/alan-jones-alleged-victim-mother-trusted-radio-host-ntwnfb",
+   "image": "https://i.guim.co.uk/img/media/9a14f73bf85c82ca8d5e453d06c96c43a6951725/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=879105fb0586cc009f4778c70fc63790",
+   "source": "The Guardian",
+   "lang": "en",
+   "category": "سياسة",
+   "sub": "",
+   "published": "2026-10-20T04:16:22+00:00",
+   "title_en": "Mother of alleged Alan Jones victim ‘absolutely trusted’ the radio host, court told",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": []
+  },
+  {
+   "title": "‘These risks are real’: the threat of AI bioweapons – podcast",
+   "summary": "",
+   "link": "https://www.theguardian.com/science/audio/2026/oct/20/these-risks-are-real-the-threat-of-ai-bioweapons-podcast",
+   "image": "https://i.guim.co.uk/img/media/a79e23d080eb53cbc53f3416c637200ed693036a/366_0_3656_2924/master/3656.jpg?width=140&quality=85&auto=format&fit=max&s=dce4153855fac7c63fec4cbb0cedb5fb",
+   "source": "The Guardian",
+   "lang": "en",
+   "category": "تقنية",
+   "sub": "",
+   "published": "2026-10-20T04:00:15+00:00",
+   "title_en": "‘These risks are real’: the threat of AI bioweapons – podcast",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": [
+    "بريطانيا"
+   ]
+  },
+  {
+   "title": "Brock Purdy becomes highest-rated passer in NFL history as 49ers stay perfect",
+   "summary": "",
+   "link": "https://www.theguardian.com/sport/2026/oct/19/washington-commanders-san-francisco-49ers-nfl-monday-night-football",
+   "image": "https://i.guim.co.uk/img/media/dff4dd644db6d99930b57501a749f447e310ac8e/427_0_4270_3416/master/4270.jpg?width=140&quality=85&auto=format&fit=max&s=4bb478c12411788160ad462753269787",
+   "source": "The Guardian",
+   "lang": "en",
+   "category": "رياضة",
+   "sub": "رياضات أخرى",
+   "published": "2026-10-20T03:42:23+00:00",
+   "title_en": "Brock Purdy becomes highest-rated passer in NFL history as 49ers stay perfect",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": []
+  },
+  {
    "title": "World Series will have first-time champion as Rays set up showdown with Brewers",
    "summary": "",
    "link": "https://www.theguardian.com/sport/2026/oct/19/rays-guardians-mlb-playoffs-world-series-alcs",
-   "image": "https://i.guim.co.uk/img/media/7ab80c59fe89897c2e09ce3b151803d48f423444/1006_0_5011_4011/master/5011.jpg?width=140&quality=85&auto=format&fit=max&s=3b7c42a3dc984525d6031e0f3398a2f6",
+   "image": "https://i.guim.co.uk/img/media/5601cb69c143b03ee5cc104e313b928c855a22fa/395_0_3230_2586/master/3230.jpg?width=140&quality=85&auto=format&fit=max&s=a6a7520d032769f5863ef1919e0ecd64",
    "source": "The Guardian",
    "lang": "en",
    "category": "رياضة",
@@ -52,16 +380,16 @@
    "countries": []
   },
   {
-   "title": "Helen Haines live updates: MP critical but stable as AFP look into charges carrying up to 10 years’ imprisonment",
+   "title": "Canadian tourist found guilty of animal cruelty after stealing Las Vegas flamingo from enclosure",
    "summary": "",
-   "link": "https://www.theguardian.com/australia-news/live/2026/oct/20/helen-haines-independent-mp-alleged-car-attack-wangaratta-melbourne-hospital-ntwnfb",
-   "image": "https://i.guim.co.uk/img/media/e095e9628412d9e77ce67e0af0ba05d71fc9eca9/464_0_5541_4435/master/5541.jpg?width=140&quality=85&auto=format&fit=max&s=69529824615a902110cb6a40346a52d3",
-   "source": "The Guardian",
+   "link": "https://www.bbc.co.uk/news/articles/cq398rjewd1jo?at_medium=RSS&at_campaign=rss",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8f1e/live/5b9b0010-cc2f-11f1-aeea-f9fa95687445.png",
+   "source": "BBC News",
    "lang": "en",
    "category": "سياسة",
    "sub": "",
-   "published": "2026-10-20T03:03:40+00:00",
-   "title_en": "Helen Haines live updates: MP critical but stable as AFP look into charges carrying up to 10 years’ imprisonment",
+   "published": "2026-10-20T03:10:39+00:00",
+   "title_en": "Canadian tourist found guilty of animal cruelty after stealing Las Vegas flamingo from enclosure",
    "summary_ar": "",
    "title_ar": null,
    "countries": []
@@ -70,13 +398,28 @@
    "title": "'Our worst nightmare': Threats to Australian politicians were rising before MP hit by car",
    "summary": "",
    "link": "https://www.bbc.co.uk/news/articles/cq398rk4p3exo?at_medium=RSS&at_campaign=rss",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ab1/live/7030b4a0-cc31-11f1-a64c-550be9e3c66b.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/98d1/live/ef977c30-cc48-11f1-a64c-550be9e3c66b.jpg",
    "source": "BBC News",
    "lang": "en",
    "category": "سياسة",
    "sub": "",
    "published": "2026-10-20T02:54:05+00:00",
    "title_en": "'Our worst nightmare': Threats to Australian politicians were rising before MP hit by car",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": []
+  },
+  {
+   "title": "Seventh day of violent clashes between Albanian protesters and police",
+   "summary": "",
+   "link": "https://www.bbc.co.uk/news/articles/cmy4xjlpqgd3o?at_medium=RSS&at_campaign=rss",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b732/live/2812da60-cc20-11f1-bc2e-018d645d8d21.jpg",
+   "source": "BBC News",
+   "lang": "en",
+   "category": "سياسة",
+   "sub": "",
+   "published": "2026-10-20T02:45:05+00:00",
+   "title_en": "Seventh day of violent clashes between Albanian protesters and police",
    "summary_ar": "",
    "title_ar": null,
    "countries": []
@@ -144,7 +487,7 @@
    "countries": []
   },
   {
-   "title": "Car allegedly did U-turn and struck Helen Haines twice, in what some believe was targeted attack against MP",
+   "title": "Helen Haines loses leg after car allegedly did U-turn and struck her twice in Wangaratta",
    "summary": "",
    "link": "https://www.theguardian.com/australia-news/2026/oct/20/helen-haines-mp-alleged-attack-wangaratta-surgery-ntwnfb",
    "image": "https://i.guim.co.uk/img/media/fc5cfde7e2fb473869454a0afb7c782394d83bd7/464_0_4640_3712/master/4640.jpg?width=140&quality=85&auto=format&fit=max&s=41d848b5ca9a28d20a95c71469b1e8ef",
@@ -153,7 +496,7 @@
    "category": "سياسة",
    "sub": "",
    "published": "2026-10-20T01:50:34+00:00",
-   "title_en": "Car allegedly did U-turn and struck Helen Haines twice, in what some believe was targeted attack against MP",
+   "title_en": "Helen Haines loses leg after car allegedly did U-turn and struck her twice in Wangaratta",
    "summary_ar": "",
    "title_ar": null,
    "countries": []
@@ -169,21 +512,6 @@
    "sub": "",
    "published": "2026-10-20T01:49:55+00:00",
    "title_en": "‘I don’t want to be known as a hero’: barber who rushed to help Helen Haines praised by PM",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": []
-  },
-  {
-   "title": "Beau Lamarre-Condon had surgery after alleged double murder but before disposing of bodies, court told",
-   "summary": "",
-   "link": "https://www.theguardian.com/australia-news/2026/oct/20/beau-lamarre-condon-surgery-hospital-after-alleged-double-murder-prior-disposing-bodies-ntwnfb",
-   "image": "https://i.guim.co.uk/img/media/9d63059b5ec2b3b95e44913aa725afea85426260/0_0_649_519/master/649.jpg?width=140&quality=85&auto=format&fit=max&s=b9eab0bfbf2544a907f367efb2a1cf7b",
-   "source": "The Guardian",
-   "lang": "en",
-   "category": "سياسة",
-   "sub": "",
-   "published": "2026-10-20T01:38:40+00:00",
-   "title_en": "Beau Lamarre-Condon had surgery after alleged double murder but before disposing of bodies, court told",
    "summary_ar": "",
    "title_ar": null,
    "countries": []
@@ -382,21 +710,6 @@
    "countries": []
   },
   {
-   "title": "'I started ketamine at 14 and needed nappies at 22' - the rise of young people going to rehab",
-   "summary": "",
-   "link": "https://www.bbc.co.uk/news/articles/c6ev30xwy8v2o?at_medium=RSS&at_campaign=rss",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0ee7/live/6a68cca0-c96c-11f1-a6e6-417671ef62cb.jpg",
-   "source": "BBC News",
-   "lang": "en",
-   "category": "علوم وصحة",
-   "sub": "",
-   "published": "2026-10-19T22:14:52+00:00",
-   "title_en": "'I started ketamine at 14 and needed nappies at 22' - the rise of young people going to rehab",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": []
-  },
-  {
    "title": "‘Like a family’: De Zerbi credits players’ talk and bonding trip for improving Tottenham",
    "summary": "",
    "link": "https://www.theguardian.com/football/2026/oct/19/players-meeting-and-bonding-trip-have-boosted-tottenham-says-de-zerbi",
@@ -436,24 +749,9 @@
    "source": "BBC Sport",
    "lang": "en",
    "category": "رياضة",
-   "sub": "رياضات أخرى",
+   "sub": "كرة القدم",
    "published": "2026-10-19T22:01:39+00:00",
    "title_en": "Liverpool and Man Utd eye Nmecha - Tuesday's gossip",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": []
-  },
-  {
-   "title": "O'Sullivan & Trump lose in NI Open as big names continue to fall",
-   "summary": "",
-   "link": "https://www.bbc.co.uk/sport/snooker/articles/cm87ze97eq2wo?at_medium=RSS&at_campaign=rss",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13e3/live/c3d920b0-cbd7-11f1-b139-f77a8b036d06.jpg",
-   "source": "BBC Sport",
-   "lang": "en",
-   "category": "رياضة",
-   "sub": "رياضات أخرى",
-   "published": "2026-10-19T22:00:27+00:00",
-   "title_en": "O'Sullivan & Trump lose in NI Open as big names continue to fall",
    "summary_ar": "",
    "title_ar": null,
    "countries": []
@@ -462,7 +760,7 @@
    "title": "Spurs beat Coventry to claim first win as Kulusevski makes long-awaited return",
    "summary": "",
    "link": "https://www.skysports.com/football/tottenham-hotspur-vs-coventry-city/report/559513",
-   "image": "https://e1.365dm.com/26/10/1920x1080/skysports-james-maddison-goal_7381102.jpg?20261019203006",
+   "image": "https://e1.365dm.com/26/10/1920x1080/skysports-omar-marmoush-goal_7381133.jpg?20261019212612",
    "source": "Sky Sports",
    "lang": "en",
    "category": "رياضة",
@@ -572,23 +870,6 @@
    "summary_ar": "",
    "title_ar": null,
    "countries": []
-  },
-  {
-   "title": "Clean up begins after French riots but police remain",
-   "summary": "",
-   "link": "https://www.bbc.co.uk/news/videos/cwr7y0e57r50o?at_medium=RSS&at_campaign=rss",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6193/live/d6797140-cc02-11f1-bc2e-018d645d8d21.jpg",
-   "source": "BBC News",
-   "lang": "en",
-   "category": "سياسة",
-   "sub": "",
-   "published": "2026-10-19T21:30:08+00:00",
-   "title_en": "Clean up begins after French riots but police remain",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": [
-    "فرنسا"
-   ]
   },
   {
    "title": "Burnham vows end to 'rip-off parking charges' under new rules",
@@ -836,30 +1117,13 @@
    "countries": []
   },
   {
-   "title": "Ukraine says it carried out first drone airlift of wounded soldier from front line",
-   "summary": "",
-   "link": "https://www.bbc.co.uk/news/videos/c3vgx05p149wo?at_medium=RSS&at_campaign=rss",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ffd/live/9535d5d0-cbf7-11f1-9a39-31b474234113.jpg",
-   "source": "BBC News",
-   "lang": "en",
-   "category": "سياسة",
-   "sub": "",
-   "published": "2026-10-19T20:00:43+00:00",
-   "title_en": "Ukraine says it carried out first drone airlift of wounded soldier from front line",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": [
-    "أوكرانيا"
-   ]
-  },
-  {
    "title": "Mission blasts off for Mars to grab a piece of its moon",
    "summary": "",
    "link": "https://www.bbc.co.uk/news/articles/cmvgxvkv54w1o?at_medium=RSS&at_campaign=rss",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8f0e/live/0a4e2af0-cbff-11f1-bc2e-018d645d8d21.jpg",
    "source": "BBC News",
    "lang": "en",
-   "category": "علوم وصحة",
+   "category": "سياسة",
    "sub": "",
    "published": "2026-10-19T19:45:46+00:00",
    "title_en": "Mission blasts off for Mars to grab a piece of its moon",
@@ -1097,7 +1361,7 @@
    "countries": []
   },
   {
-   "title": "Reaction as Spurs secure first win of the season vs Coventry LIVE!",
+   "title": "Spurs secure first win of the season vs Coventry",
    "summary": "",
    "link": "https://www.skysports.com/football/tottenham-hotspur-vs-coventry-city/live/559513",
    "image": "https://e0.365dm.com/26/10/1920x1080/skysports-spurs-ben-davies_7381154.jpg?20261019215925",
@@ -1106,7 +1370,7 @@
    "category": "رياضة",
    "sub": "كرة القدم",
    "published": "2026-10-19T18:00:00+00:00",
-   "title_en": "Reaction as Spurs secure first win of the season vs Coventry LIVE!",
+   "title_en": "Spurs secure first win of the season vs Coventry",
    "summary_ar": "",
    "title_ar": null,
    "countries": []
@@ -1236,6 +1500,23 @@
    "countries": []
   },
   {
+   "title": "The 7ft British star chasing an NBA dream with the Boston Celtics",
+   "summary": "",
+   "link": "https://www.skysports.com/basketball/news/12040/13598251/amari-williams-boston-celtics-british-big-man-ready-for-detroit-reunion-after-career-defining-moment",
+   "image": "https://e1.365dm.com/26/10/1920x1080/skysports-amari-williams-boston-celtics_7375243.jpg?20261012171904",
+   "source": "Sky Sports",
+   "lang": "en",
+   "category": "رياضة",
+   "sub": "كرة القدم",
+   "published": "2026-10-19T17:00:00+00:00",
+   "title_en": "The 7ft British star chasing an NBA dream with the Boston Celtics",
+   "summary_ar": "",
+   "title_ar": null,
+   "countries": [
+    "بريطانيا"
+   ]
+  },
+  {
    "title": "Boland exposes South Africa's frailties to give Robinson blueprint",
    "summary": "",
    "link": "https://www.bbc.co.uk/sport/cricket/articles/c6rmy4mzl4wyo?at_medium=RSS&at_campaign=rss",
@@ -1335,21 +1616,6 @@
    "countries": []
   },
   {
-   "title": "'King of the Monsters!' - Haas reveal special US GP car livery",
-   "summary": "",
-   "link": "https://www.skysports.com/f1/live-blog/12040/12466779/f1-news-rumours-and-gossip-formula-1-latest-updates-on-teams-driver-transfer-market-and-contracts",
-   "image": "https://e1.365dm.com/26/10/1920x1080/skysports-haas-livery-2026-united-states-gp_7380882.png?20261019162513",
-   "source": "Sky Sports",
-   "lang": "en",
-   "category": "رياضة",
-   "sub": "كرة القدم",
-   "published": "2026-10-19T16:27:00+00:00",
-   "title_en": "'King of the Monsters!' - Haas reveal special US GP car livery",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": []
-  },
-  {
    "title": "Brentford contact police after rugby ball kicked into stadium during game",
    "summary": "",
    "link": "https://www.bbc.co.uk/sport/football/articles/cm4g17d11zvwo?at_medium=RSS&at_campaign=rss",
@@ -1429,7 +1695,7 @@
    "countries": []
   },
   {
-   "title": "Obama blasts federal probe of congresswoman Ilhan Omar as 'so appalling'",
+   "title": "Obama blasts federal probe of Ilhan Omar as 'so appalling'",
    "summary": "",
    "link": "https://www.bbc.co.uk/news/articles/cr15jl7dd42vo?at_medium=RSS&at_campaign=rss",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5592/live/e0f10480-cb2b-11f1-97d2-23d8daaba2e1.jpg",
@@ -1438,22 +1704,7 @@
    "category": "سياسة",
    "sub": "",
    "published": "2026-10-19T16:16:51+00:00",
-   "title_en": "Obama blasts federal probe of congresswoman Ilhan Omar as 'so appalling'",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": []
-  },
-  {
-   "title": "Wolff braced for 'full-on fight' amid Verstappen resurgence",
-   "summary": "",
-   "link": "https://www.skysports.com/f1/news/12040/13600888/f1-toto-wolff-says-max-verstappen-red-bull-resurgence-adds-to-expectation-of-full-on-fight-into-2027-season",
-   "image": "https://e0.365dm.com/26/10/1920x1080/skysports-max-verstappen-red-bull_7380811.jpg?20261019151152",
-   "source": "Sky Sports",
-   "lang": "en",
-   "category": "رياضة",
-   "sub": "كرة القدم",
-   "published": "2026-10-19T16:14:00+00:00",
-   "title_en": "Wolff braced for 'full-on fight' amid Verstappen resurgence",
+   "title_en": "Obama blasts federal probe of Ilhan Omar as 'so appalling'",
    "summary_ar": "",
    "title_ar": null,
    "countries": []
@@ -1592,21 +1843,6 @@
    "sub": "",
    "published": "2026-10-19T15:17:15+00:00",
    "title_en": "Freud confirms Beatles' songs to star in musical",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": []
-  },
-  {
-   "title": "Arsenal vs Man Utd, NLD and Man City vs Chelsea live on Sky in December",
-   "summary": "",
-   "link": "https://www.skysports.com/football/news/12040/13600880/premier-league-fixtures-on-sky-sports-arsenal-vs-man-utd-north-london-derby-and-man-city-vs-chelsea-live-in-december",
-   "image": "https://e1.365dm.com/26/10/1920x1080/skysports-premier-league-badges_7380864.jpg?20261019161220",
-   "source": "Sky Sports",
-   "lang": "en",
-   "category": "رياضة",
-   "sub": "كرة القدم",
-   "published": "2026-10-19T15:16:00+00:00",
-   "title_en": "Arsenal vs Man Utd, NLD and Man City vs Chelsea live on Sky in December",
    "summary_ar": "",
    "title_ar": null,
    "countries": []
@@ -1998,21 +2234,6 @@
    "countries": []
   },
   {
-   "title": "Morgan Gibbs-White fined after his car ran red light",
-   "summary": "",
-   "link": "https://www.bbc.co.uk/news/articles/c6wyr3rrxnrxo?at_medium=RSS&at_campaign=rss",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/64c6/live/7d1788a0-cba6-11f1-9ee2-f74dfb8e54e5.jpg",
-   "source": "BBC Sport",
-   "lang": "en",
-   "category": "رياضة",
-   "sub": "كرة القدم",
-   "published": "2026-10-19T12:49:39+00:00",
-   "title_en": "Morgan Gibbs-White fined after his car ran red light",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": []
-  },
-  {
    "title": "Airman who died in rappelling accident at Texas college football game identified",
    "summary": "",
    "link": "https://www.theguardian.com/us-news/2026/oct/19/airman-died-rappelling-accident-texas-football-game",
@@ -2102,38 +2323,6 @@
    "sub": "",
    "published": "2026-10-19T11:36:45+00:00",
    "title_en": "Pedigree chums: why the movies are killing off fewer dogs",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": []
-  },
-  {
-   "title": "Brook wants to be captain 'England fans can rely on'",
-   "summary": "",
-   "link": "https://www.skysports.com/cricket/news/12040/13600921/harry-brook-wants-to-be-captain-england-fans-can-rely-on-odi-skipper-says-ahead-of-pakistan-sri-lanka-tri-series",
-   "image": "https://e1.365dm.com/26/10/1920x1080/skysports-harry-brook-england_7380652.jpg?20261019122340",
-   "source": "Sky Sports",
-   "lang": "en",
-   "category": "رياضة",
-   "sub": "كرة القدم",
-   "published": "2026-10-19T11:34:00+00:00",
-   "title_en": "Brook wants to be captain 'England fans can rely on'",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": [
-    "إنجلترا"
-   ]
-  },
-  {
-   "title": "Littler to face O'Connor in European Championship Darts opener",
-   "summary": "",
-   "link": "https://www.skysports.com/darts/news/12040/13600917/european-championship-darts-luke-littler-to-face-william-oconnor-in-opener-as-gian-van-veen-starts-defence-vs-andrew-gilding",
-   "image": "https://e2.365dm.com/26/07/1920x1080/skysports-luke-littler-darts_7305455.jpg?20260723224554",
-   "source": "Sky Sports",
-   "lang": "en",
-   "category": "رياضة",
-   "sub": "كرة القدم",
-   "published": "2026-10-19T11:30:00+00:00",
-   "title_en": "Littler to face O'Connor in European Championship Darts opener",
    "summary_ar": "",
    "title_ar": null,
    "countries": []
@@ -2700,23 +2889,6 @@
    ]
   },
   {
-   "title": "Funding shortages force World Food Programme to cut aid to Gaza",
-   "summary": "",
-   "link": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a2c/live/e6934370-cb7c-11f1-8d42-dd1c1e8413a3.jpg",
-   "source": "BBC News",
-   "lang": "en",
-   "category": "سياسة",
-   "sub": "",
-   "published": "2026-10-19T06:00:18+00:00",
-   "title_en": "Funding shortages force World Food Programme to cut aid to Gaza",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": [
-    "فلسطين"
-   ]
-  },
-  {
    "title": "The one change that worked: I deleted Instagram – and embraced the joys of a truly private life",
    "summary": "",
    "link": "https://www.theguardian.com/lifeandstyle/2026/oct/19/the-one-change-that-worked-i-deleted-instagram-and-embraced-the-joys-of-a-truly-private-life",
@@ -2916,21 +3088,6 @@
    "countries": []
   },
   {
-   "title": "Rays on verge of World Series return after Rasmussen dazzles in win over Guardians",
-   "summary": "",
-   "link": "https://www.theguardian.com/sport/2026/oct/18/rays-on-verge-of-world-series-return-after-rasmussen-dazzles-in-win-over-guardians",
-   "image": "https://i.guim.co.uk/img/media/f68563cb42044fea18c3950b3827b1a0a15fe6b5/570_0_5698_4559/master/5698.jpg?width=140&quality=85&auto=format&fit=max&s=438349af5c7d713fc991851554975daf",
-   "source": "The Guardian",
-   "lang": "en",
-   "category": "رياضة",
-   "sub": "رياضات أخرى",
-   "published": "2026-10-19T00:26:50+00:00",
-   "title_en": "Rays on verge of World Series return after Rasmussen dazzles in win over Guardians",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": []
-  },
-  {
    "title": "'It gives me the ick': Can you cheat on someone with a video game?",
    "summary": "",
    "link": "https://www.bbc.co.uk/news/articles/ckn9wrr75dyeo?at_medium=RSS&at_campaign=rss",
@@ -2944,24 +3101,6 @@
    "summary_ar": "",
    "title_ar": null,
    "countries": []
-  },
-  {
-   "title": "Inside the shadowy world of anti-Putin sabotage from within Russia",
-   "summary": "",
-   "link": "https://www.bbc.co.uk/news/articles/c6pwgzkj8zzgo?at_medium=RSS&at_campaign=rss",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b9f8/live/f9937b60-c943-11f1-a64c-550be9e3c66b.jpg",
-   "source": "BBC News",
-   "lang": "en",
-   "category": "سياسة",
-   "sub": "",
-   "published": "2026-10-19T00:06:25+00:00",
-   "title_en": "Inside the shadowy world of anti-Putin sabotage from within Russia",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": [
-    "روسيا",
-    "أوكرانيا"
-   ]
   },
   {
    "title": "Four people killed in ‘violent, fast-moving’ fire at Canadian military base",
@@ -3185,21 +3324,6 @@
    "countries": []
   },
   {
-   "title": "Man City remain unbeaten as Shaw scores twice against Brighton",
-   "summary": "",
-   "link": "https://www.bbc.co.uk/sport/football/videos/cqrly0ly7j59o?at_medium=RSS&at_campaign=rss",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0612/live/c8cbdbe0-cb0e-11f1-9a39-31b474234113.jpg",
-   "source": "BBC Sport",
-   "lang": "en",
-   "category": "رياضة",
-   "sub": "رياضات أخرى",
-   "published": "2026-10-18T16:13:45+00:00",
-   "title_en": "Man City remain unbeaten as Shaw scores twice against Brighton",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": []
-  },
-  {
    "title": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
    "summary": "",
    "link": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
@@ -3260,23 +3384,6 @@
    "countries": []
   },
   {
-   "title": "Britain's Kartal misses out on biggest title of her career",
-   "summary": "",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/cqm2411vp3dgo?at_medium=RSS&at_campaign=rss",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f82d/live/8f8d5880-cbaa-11f1-a64c-550be9e3c66b.jpg",
-   "source": "BBC Sport",
-   "lang": "en",
-   "category": "رياضة",
-   "sub": "التنس",
-   "published": "2026-10-18T13:39:24+00:00",
-   "title_en": "Britain's Kartal misses out on biggest title of her career",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": [
-    "بريطانيا"
-   ]
-  },
-  {
    "title": "What are self-replicating ‘AI worms’, and why is Anthropic worried about them?",
    "summary": "",
    "link": "https://www.theguardian.com/technology/2026/oct/18/anthropic-ai-worm-worries",
@@ -3290,38 +3397,6 @@
    "summary_ar": "",
    "title_ar": null,
    "countries": []
-  },
-  {
-   "title": "James and Carpenter lead Chelsea surge as sorry Spurs hit for six in WSL again",
-   "summary": "",
-   "link": "https://www.theguardian.com/football/2026/oct/18/chelsea-tottenham-wsl-match-report",
-   "image": "https://i.guim.co.uk/img/media/9d34ed0fb72d3d30094857904c19c34c5cc2adb3/393_1406_2716_2173/master/2716.jpg?width=140&quality=85&auto=format&fit=max&s=9a0be1a66286cbfc3a06b96806b9ee1d",
-   "source": "The Guardian",
-   "lang": "en",
-   "category": "رياضة",
-   "sub": "كرة القدم",
-   "published": "2026-10-18T13:13:45+00:00",
-   "title_en": "James and Carpenter lead Chelsea surge as sorry Spurs hit for six in WSL again",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": []
-  },
-  {
-   "title": "Microsoft pulls out of AI datacentre project in Essex over power supply concerns",
-   "summary": "",
-   "link": "https://www.theguardian.com/uk-news/2026/oct/18/microsoft-drops-huge-ai-datacentre-project-in-essex-over-power-supply-concerns",
-   "image": "https://i.guim.co.uk/img/media/48d031cc06f5ca17cafd75b0f30a1537d4f35d43/7_0_686_549/master/686.jpg?width=140&quality=85&auto=format&fit=max&s=c5cf32679a4362ea71e1465a65af9593",
-   "source": "The Guardian",
-   "lang": "en",
-   "category": "تقنية",
-   "sub": "",
-   "published": "2026-10-18T13:05:14+00:00",
-   "title_en": "Microsoft pulls out of AI datacentre project in Essex over power supply concerns",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": [
-    "بريطانيا"
-   ]
   },
   {
    "title": "Ending corridor care in hospitals for children a priority, says health secretary",
@@ -3641,68 +3716,6 @@
    "sub": "",
    "published": "2026-10-17T09:00:28+00:00",
    "title_en": "‘You can’t make this stuff up’: why we remain fascinated by Elizabeth Holmes",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": []
-  },
-  {
-   "title": "Which coffee chain was founded in London in 1971? The Saturday quiz",
-   "summary": "",
-   "link": "https://www.theguardian.com/games/2026/oct/17/which-coffee-chain-was-founded-in-london-in-1971-the-saturday-quiz",
-   "image": "https://i.guim.co.uk/img/media/2c184cfa6cd9ed17ee1220cbd1efbd11c17d423f/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=8bd3e34a8f9b4b62705d2265d2915ce4",
-   "source": "The Guardian",
-   "lang": "en",
-   "category": "تقنية",
-   "sub": "",
-   "published": "2026-10-17T06:00:24+00:00",
-   "title_en": "Which coffee chain was founded in London in 1971? The Saturday quiz",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": []
-  },
-  {
-   "title": "Avian flu and costs among reasons for loss of captive birds at Castle Espie",
-   "summary": "",
-   "link": "https://www.bbc.co.uk/news/articles/c6m24e1ln130o?at_medium=RSS&at_campaign=rss",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f584/live/ad66ed10-c9ea-11f1-bb2b-7517a3677781.jpg",
-   "source": "BBC News",
-   "lang": "en",
-   "category": "علوم وصحة",
-   "sub": "",
-   "published": "2026-10-17T05:10:33+00:00",
-   "title_en": "Avian flu and costs among reasons for loss of captive birds at Castle Espie",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": []
-  },
-  {
-   "title": "Not cool: who hacked France’s supermarket fridges?",
-   "summary": "",
-   "link": "https://www.theguardian.com/world/2026/oct/17/who-hacked-frances-supermarket-fridges",
-   "image": "https://i.guim.co.uk/img/media/446c1773fea046f80e07ca9533f82b2eaa90e1e6/494_0_3540_2832/master/3540.jpg?width=140&quality=85&auto=format&fit=max&s=aa4cee8a1aabe7c0ef821e19e4acd335",
-   "source": "The Guardian",
-   "lang": "en",
-   "category": "اقتصاد",
-   "sub": "",
-   "published": "2026-10-17T04:00:20+00:00",
-   "title_en": "Not cool: who hacked France’s supermarket fridges?",
-   "summary_ar": "",
-   "title_ar": null,
-   "countries": [
-    "فرنسا"
-   ]
-  },
-  {
-   "title": "Third runway at Heathrow Airport would drive growth, Healey says",
-   "summary": "",
-   "link": "https://www.bbc.co.uk/news/articles/cw0k07d2nj43o?at_medium=RSS&at_campaign=rss",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/388f/live/422e53f0-c9fc-11f1-bb10-89ce65f72e2c.jpg",
-   "source": "BBC News",
-   "lang": "en",
-   "category": "اقتصاد",
-   "sub": "",
-   "published": "2026-10-17T03:57:16+00:00",
-   "title_en": "Third runway at Heathrow Airport would drive growth, Healey says",
    "summary_ar": "",
    "title_ar": null,
    "countries": []
